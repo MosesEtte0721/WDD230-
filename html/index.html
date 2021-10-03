@@ -34,10 +34,10 @@
             <br> <span id="time">  </span>
       <script>
         let time = new Date();
-        let days = time.getDay();
+        
         let months = time.getMonth();
         let years = time.getFullYear();
-        let all = `Last updated: ${ days+1} / ${months+1
+        let all = `Last updated: ${months+1
         } / ${years-1}`;
         document.getElementById("time").innerHTML = all;
        </script>

@@ -4,25 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="landing page that organizes fall 2021 WDD230 assignments and all projects">
     <title>project page</title>
+    <style>
+        body {
+            background-color: black;
+            color:yellow;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            box-sizing: border-box;
+            
+        }
+        img {
+            max-width: 100px;
+            float: right; 
+            margin:2px; 
+            border-radius: 2p
+
+        }
+        a{
+            color: yellowgreen;
+            text-decoration: none;
+        }
+        header h1{
+            text-align: left;
+            
+        }
+        header, footer {
+            background-color: yellow;
+            color:black;
+        }
+        footer a{
+            color: black;
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+        footer{
+            font-weight: bold;
+        }
+    </style>
+    
 </head>
 <body>
+    
     <header>
-        <h1>Moses Archibong Ette</h1>
+        <div id="div-1">
+            <h1>Moses Archibong Ette</h1>
+            
+        </div>
     </header>
     <main>
-        WDD 230: Assignment portal
-        <ul>
-            <li>lesson 01:<a href="#">Assignment Link</a></li>
-            <li>lesson 02:<a href="#">Assignment Link</a></li>
-            <li>lesson 03:<a href="#">Assignment Link</a></li>
-            <li>lesson 04:<a href="#">Assignment Link</a></li>
-            <li>lesson 05:<a href="#">Link | Link</a></li>
-        </ul>
         <img src="../web-project/images/IMG_20200216_162335_5.jpg" alt="Moses Ette's photo">
+       <section id="ul"> 
+           <P><h2>Wdd230: Assignment portal</h2></P>
+        <ul>
+            <li>Lesson 01:<a href="#"> Assignment Link</a></li>
+            <li>Lesson 02:<a href="#"> Assignment Link</a></li>
+            <li>Lesson 03:<a href="#"> Assignment Link</a></li>
+            <li>Lesson 04:<a href="#"> Assignment Link</a></li>
+            <li>Lesson 05:<a href="#"> Link | Link</a></li>
+        </ul>
+      </section>
+        <!--<img src="../web-project/images/IMG_20200216_162335_5.jpg" alt="Moses Ette's photo">-->
     </main>
     <footer>
-        2020| Moses Archibong Ette | Akwa Ibom | <a href="https://byupathway.org">BYUI Oline Learning</a>
+        <section id="foot">
+            &copy;2020 | Moses Archibong Ette | Akwa Ibom | <a href="https://www.byui.edu/online">BYUI Oline Learning</a>
+            <br> <span id="time">  </span>
+        </section>
+      <script>
+        let time = new Date();
+        let days = time.getDay();
+        let months = time.getMonth();
+        let years = time.getFullYear();
+        let all = `Last updated: ${ days} / ${months+1
+        } / ${years-1}`;
+        document.getElementById("time").innerHTML = all;
+       </script>
+       
     </footer>
 </body>
 </html>

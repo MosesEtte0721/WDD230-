@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="landing page that organizes fall 2021 WDD230 assignments and all projects">
+    <title>project page</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    
+</head>
+<body>
+    <header>
+        <div id="div-1">
+            <h1>Moses Archibong Ette</h1>      
+        </div>
+    </header>
+    <main>
+        <img src="../web-project/images/IMG_20200216_162335_5.jpg" alt="Moses Ette's photo">
+       <section id="ul"> 
+           <h2>Wdd230: Assignment portal</h2>
+        <ul>
+            <li>Lesson 01:<a href="#"> Assignment Link</a></li>
+            <li>Lesson 02:<a href="#"> Assignment Link</a></li>
+            <li>Lesson 03:<a href="#"> Assignment Link</a></li>
+            <li>Lesson 04:<a href="#"> Assignment Link</a></li>
+            <li>Lesson 05:<a href="#"> Link | Link</a></li>
+        </ul>
+      </section>
+        <!--<img src="../web-project/images/IMG_20200216_162335_5.jpg" alt="Moses Ette's photo">-->
+    </main>
+    <footer>
+            &copy;2020 | Moses Archibong Ette | Akwa Ibom | <a href="https://www.byui.edu/online">BYUI Oline Learning</a>
+            <br> <span id="time">  </span>
+      <script>
+        let time = new Date();
+        
+        let months = time.getMonth();
+        let years = time.getFullYear();
+        let all = `Last updated: ${months+1
+        } / ${years-1}`;
+        document.getElementById("time").innerHTML = all;
+       </script>
+    </footer>
+</body>
+</html>

@@ -422,8 +422,8 @@ template {
   header nav {
     grid-row: 3;
     display: flex;
-    flex: auto;
-    width: 975px;
+    flex: 1 1 auto;
+  
     
     background-color:#b8aebd; ;
     
@@ -473,7 +473,7 @@ template {
   }
   
  .togglemenu {
-
+  display: flex;
   }    
 
 
@@ -505,14 +505,14 @@ main {
   
   article{
     display: grid;
-    grid-template-columns: repeat(1, autofill)
+    
     grid-template-rows:repeat(3,3fr)
    /* border: 1px inset;*/
     
   }
   .articles-images {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-left: 0px;
     border: 1px solid rgba(0,0,0,0.7);
     height: 50px;

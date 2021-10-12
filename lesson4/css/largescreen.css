@@ -493,7 +493,7 @@ main {
   .summarise{
     display: block;
    position: absolute;
-   top: 250px;
+   top: 280px;
     left: 30px;
     z-index: 1;
     background-color:violet;

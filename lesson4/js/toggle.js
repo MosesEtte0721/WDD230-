@@ -1,5 +1,4 @@
 function toggleMenu() {
- 
-    document.getElementById("javascript").classList.toggle("togglemenu");
-  }
-  
+   
+  document.getElementById("javascript").classList.toggle("togglemenu");
+  } 

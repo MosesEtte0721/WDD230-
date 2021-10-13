@@ -190,7 +190,7 @@ footer {
   .foot-para-images img{
     display: flex;
     flex-direction: column;
-    width: 30px;
+    width: 40px;
     height: 30px;
   
   }

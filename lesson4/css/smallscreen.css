@@ -183,16 +183,26 @@ footer {
     grid-row: 1/1;
     grid-column: 1/1;
     align-self: flex-end;
-    line-height: 5px;
     
+    
+    
+  }
+  .foot-para-images img{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+  
   }
 
   .foot-paragraph {
     grid-row: 1/1;
     grid-column: 2/3;
-    align-self: f;
+    align-self: center;
     padding:6px;
     margin: 2px;
+    line-height: 15px ;
+    justify-self: start;
   }
   
   .social-media {

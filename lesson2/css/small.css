@@ -1,0 +1,64 @@
+@media only screen and  (min-width: 320px){
+    body {
+        margin: 0;
+        padding: 10px;
+        background-color: honeydew;
+        height: 700px;
+
+    }
+    header {
+        margin: 0px;
+        padding: 5px;
+        background-color: tomato;
+    }
+    h1, h3 {
+        font-family: 'Crimson Text', 'Times New Roman', Times,  serif;
+        
+    }
+
+    p {
+        font-family:'Dongo', sans-serif;
+    }
+     
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        gap: 10px 10px;   
+        justify-content: center;
+        align-content: flex-start;
+        height: 550px;
+    }
+
+    .proximity, .hikes-law, .alignment,.contrast{
+        max-width: 620px;
+        max-height: 600px;
+        border: 3px inset ;
+        padding: 6px;
+        margin: 2px;
+    }
+    .Visit{
+        background-color: blue;
+        color:#fff;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 50px;
+        font-size: x-large;
+    }
+    a {
+        font-size: x-large;
+        margin: 5px;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: overline;
+        background-color:goldenrod;
+        font-size: 20px;
+
+    }
+    img {
+        margin: 5px;
+        max-height: 300px;
+    }
+}

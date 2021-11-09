@@ -1,0 +1,14 @@
+@media only screen and (max-width:560px) { 
+    main nav {
+        display: flex;
+        flex-direction: row;
+    }
+    main nav ul{
+        display: flex;
+        /* flex-direction: row; */
+    }
+    main {
+        /* display: flex; */
+        /* flex-direction: row; */
+    }
+}

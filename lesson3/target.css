@@ -33,7 +33,10 @@ main {
     background-color: #EFF0EE;
     
     }
-
+p {
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 main nav ul {
     background-color: black;
     display: flex;

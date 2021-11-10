@@ -94,3 +94,22 @@ footer {
     background-color: #EFF0EE;
     border: 2px solid yellowgreen;
 }
+.accent-colors1 {
+    width: 80px;
+    height: 80px;
+    background-color: #ffea5e;
+}
+.accent-colors2 {
+    width: 80px;
+    height: 80px;
+    background-color: #ff9a6f;
+}
+.accent-colors3 {
+    width: 80px;
+    height: 80px;
+    background-color: #b06bff;
+}
+.accent {
+    display: flex;
+}
+

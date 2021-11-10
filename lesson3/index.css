@@ -81,3 +81,16 @@ footer {
     background-color: rgb(135, 206, 235);
 
 }
+
+.foothead-color {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(135, 206, 235);
+}
+
+.mainbody-color {
+    width: 80px;
+    height: 80px;
+    background-color: #EFF0EE;
+    border: 2px solid yellowgreen;
+}

@@ -43,6 +43,19 @@
             font-weight: bolder;
         }
         footer{
+            line-height: 10px;
             font-weight: bold;
+            display: block;
+
         }
-    
+        
+        .p1 {
+            text-align: center;
+            margin: 0px;
+            padding: 2px;
+          }
+          #time {
+            text-align: center;
+            margin: 0px;
+            padding: 2px;
+          }

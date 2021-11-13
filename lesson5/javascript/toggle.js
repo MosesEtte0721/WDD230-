@@ -1,4 +1,4 @@
-function toggleMenu() {
+function ToggleMenu() {
   document.getElementById("javascript").classList.toggle("nicely");
 }
 

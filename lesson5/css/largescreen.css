@@ -54,12 +54,13 @@ main nav .togglemenu {
   margin-left: 12px;
 }
 
-img {
+header img {
   margin: 2px;
   padding: 2px;
   width: 100px;
   height: 100px;
 }
+
 
 .togglemenu li {
   list-style: none;

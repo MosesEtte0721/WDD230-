@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typography</title>
     <meta name="description" content="wheather site project by Moses Ette">
-    <link rel="shortcut icon" href="weather-logo-optimized copy.ico">
+
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="indexsmall.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Heebo:wght@500&family=Roboto:wght@700&family=Slabo+27px&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="weather-logo-optimized copy.ico">
+    <link rel="stylesheet" href="css/indexsmall.css">
+    <link rel="stylesheet" href="css/index.css">
+    
 </head>
 <body>
     <header>
@@ -26,19 +31,37 @@
             </ul>
         </nav>
 
-        <div class="typography">
+        <!-- <div class="typography"> -->
             <h3>Reference the element to which the typography choices will apply:</h3>
             <ul>
-                <li><h3>Heading:</h3> h2, Beaba Neue, sans-serif</li>
-                <li><h3>Subheading:</h3> h4, Teko, sans-serif</li>
-                <li><h3>Paragraph:</h3> 15px, Robot, lato,opun, san serif</li>
+                <div class="div1">
+                   <li>
+                       <h3>Title:</h3> 
+                          <h1> h1</h1><p>(Roboto, sans-serif) </p>  
+                    </li>
+                </div>
+
+                <div class="div2">
+                     <li>
+                         <h3>Subtitle:</h3> <h2> h2</h2>  <p > (Heebo, san-serif)</p>
+                    </li>
+                </div>
+
+                <div class="div3">
+                    <li> 
+                        <p>
+                            <h3>Paragraph:</h3>
+                            smallscreen:15px<br> medium and largescreen: 18px (Arimo,Merriweather, serif)
+                        </p> 
+                    </li>
+                </div>
             </ul>
-        </div>
+        <!-- </div> -->
     </main>
     <footer>
         &copy;2021 | Moses Archibong Ette | Akwa Ibom | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
-        <br> <p id="time" ></p>
-        <script src="../javascript/script.js"></script>
+        <!-- <br> <p id="time" ></p> -->
+        <!-- <script src="../javascript/script.js"></script> -->
 </footer>
 </body>
 </html>

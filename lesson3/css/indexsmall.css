@@ -1,11 +1,13 @@
 @media only screen and (max-width:560px) { 
     main nav {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        /* justify-content: space-around; */
     }
     main nav ul{
         display: flex;
         flex-direction: column;
+        /* justify-content: space-around; */
     }
     main {
         display: flex;

@@ -3,9 +3,11 @@ body {
     padding: 2px;
     margin: 0;        
 }
+
 h1,h2,h3,h4 {
     font-family: 'Times New Roman', Times, serif;
 }
+
 header {
     padding: 5px;
     display: flex;
@@ -19,8 +21,8 @@ header {
 main nav ul { 
 
     display: flex;
-    background-color: black;
-    /* align-content: center; */
+    background-color: #000000;
+    align-content: center;
     justify-content:  space-evenly;
     gap: 15px;
     padding: 0px;
@@ -60,6 +62,7 @@ main  nav {
 img {
     width: 200px;
 }
+
 main {
     width: 70%;
     margin: 0 auto;
@@ -67,9 +70,11 @@ main {
     padding: 0px;
 
 }
+
 p {
     font-size: 20px;
 }
+
 footer {
 
     margin: 0;
@@ -94,22 +99,71 @@ footer {
     background-color: #EFF0EE;
     border: 2px solid yellowgreen;
 }
+
 .accent-colors1 {
     width: 80px;
     height: 80px;
     background-color: #ffea5e;
 }
+
 .accent-colors2 {
     width: 80px;
     height: 80px;
     background-color: #ff9a6f;
 }
+
 .accent-colors3 {
     width: 80px;
     height: 80px;
     background-color: #b06bff;
 }
+
 .accent {
     display: flex;
 }
 
+#times {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.div1  {
+    width: 200px;
+    height: 130px;
+    background-color: cyan;
+}
+
+
+.div1 p,.div1 h2,.div1 h3,.div1 h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.div2 li p, .div2 h3, .div2 h2 {
+    font-family: "Heebo", sans-serif;
+}
+
+
+.div3  p, .div3 h3 {
+    font-family: "EB Garamond","Slabo 27px",  serif;
+}
+
+
+.div2 {
+    width: 200px;
+    height: 120px;
+    background-color: cyan;
+}
+
+
+.div3 {
+    width: 200px;
+    height: 120px;
+    background-color: cyan;
+}
+
+
+.typography {
+    list-style: none;
+}

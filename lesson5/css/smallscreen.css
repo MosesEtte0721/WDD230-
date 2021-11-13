@@ -21,11 +21,18 @@ background-color: rgb(135, 206, 235);
 }
 
 
-img {
+header img {
 margin: 2px;
 padding: 2px;
 width: 100px;
 height: 100px;
+}
+
+.image {
+  display: flex;
+  flex: 1 1 auto;
+  width: 600px;
+  height: 200px;
 }
 
 /* container of the company's name and slogan */

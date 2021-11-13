@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple DOM example</title>
-  <style>
-    
-  </style>
- 
+    <link rel="stylesheet" href="bom.css">
   </head>
-  <body>
-      <section class="input">
-        <label>Enter Book and Chapter:</label>
-          <input type="text" id="favchap" placeholder="Alma 6" required> 
-          <button type="submit">add Chapter</button>
-        </section>
-        <ul>
 
-        </ul>
+  <body>
+      <main>
+
+      <section class="input1">
+        <h1>Dom Manipulation</h1>
+          <label for="favchapt">Enter fovorite Chapter</label><br>
+          <input type="text" id="favchapt" placeholder="Alma 6" required><br> 
+          <button type="submit">add Chapter</button>
+      </section>
+
+        <div class="listbucket">
+          <ul class="list">
+
+          </ul>
+        </div>
+
+        
+      </main>  
+      <script src="bom.js"></script>
   </body>
 </html>

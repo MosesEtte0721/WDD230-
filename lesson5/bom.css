@@ -1,0 +1,51 @@
+    main {
+      border: 1.5px solid royalblue;
+      background-color: darkgrey;
+
+
+    }
+    
+    button{
+      font-size: 18px;
+      height: 30px;
+      width: 110px;
+      margin-left: 10px;
+      color:red;
+      background-color: aqua;
+      text-align: center;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 0px;
+      border: none;
+
+  
+    }
+
+    label {
+      font-size: 20px;
+      margin: 5px;
+      padding: 5px;
+
+    }
+
+    input {
+      font-size: 20px;
+      border-radius: 5px;
+      border: none;
+      margin: 5px;
+      padding: 10px;
+    }
+    
+     .list {
+       background-color: darkgrey;
+       margin: 0px;
+       padding: 5px;
+     }
+
+     .list li {
+       margin: 10px;
+       padding: 5px;
+       font-size: 20px;
+       color: yellow;
+     }
+      

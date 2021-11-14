@@ -90,6 +90,33 @@ footer {
   width: 550px;
   height: 100px;
 }
+.spand1 {
+  text-align-last: right;
+  width: 80px;
+
+}
+.span2 {
+  float: right;
+  color: #ffea5a;
+  width: 80px;
+  border: 1px solid red;
+}
+.wesummary {
+  width: 200px;
+  height: 150px;
+  line-height: 3px;
+  background-color: #b06bff;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.wesummary h2 {
+  border-bottom: 2px solid black;
+}
+
+.banner {
+  position: relative;
+}
 
 }
 

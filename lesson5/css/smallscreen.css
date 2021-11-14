@@ -125,6 +125,41 @@ footer {
   margin: 10px;
 }
 
+.spand1 {
+  display: flex;
+  
+  justify-content: flex-start;
+  width: 10px;
+  height: 10px;
+  font-size: 20px;
+  margin: 0px;
+
+}
+.span2 {
+  justify-content: flex-start;
+  color: #ffea5a;
+  width: 10px;
+  border: 1px solid red;
+  
+  margin: 0px;
+  height: 10px;
+
+}
+.wesummary {
+  width: 250px;
+  height: 150px;
+  line-height: 3px;
+  background-color: #b06bff;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.banner {
+  position: relative;
+}
+
+
 }
 
 

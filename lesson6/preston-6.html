@@ -5,116 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Preston weather forcast </title>
-    <link rel="stylesheet" href="css6/largescreen.css" >
+    
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Merriweather:wght@300&family=Roboto&family=Arimo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/normalize.css">
+
     <link rel="stylesheet" href="css6/smallscreen.css">
-    <!--media="orientation:largescreen"-->
-    <script src="js-6/js.js"></script>
-    <script src="js-6/windchille.js"></script>
+    <link rel="stylesheet" href="css6/medium.css">
+    <link rel="stylesheet" href="css6/largescreen.css" >
+    <!-- <link rel="stylesheet" href="css/smallscreen.css"> -->
+    
   </head>
 <body>
   <header>
-      
+    <div class="head-div">
 
+    </div>
+    <script src="javascript6/toggle6.js"></script>
+
+    <div class="logo-slogan">
     <section class="motto">
-      <img src="images/weather-icon.png" alt="logo">
-      <div class="note">
-        <h1> Weather site</h1>
-        <p class="italic">reliable weather forcast</p>
-      </div>    
-    </section>
- 
-  <nav class="clearfix">
-    <button onclick="toggleMenu()"> &#9776; </button>
-    <ul id="javascript" class="togglemenu">
-
-      <li><a href="#">Home </a></li>
-      <li><a href="#">Preston</a></li>
-      <li><a href="#">Storm Center</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">Don'ts</a></li>
-      
-    </ul>
-  </nav>
+      <img src="../lesson3/weather-logo-optimized.png" alt="logo">
     
+     </section>  
+     <div class="note">
+      <h1> Mosett  weather</h1>
+      <h3 class="italic">reliable weather forcast</h3>
+    </div>    
+  </div>
+
   </header>
+
   <main>
-    <div class="hero-image">
-      <h2>Preston Idaho</h2>
-      <img src="../images/farm-land.jpg" alt="weather-icon">
-    </div>
-    
-    <div class="summarise">
-        <h3>Weather Summary</h3>
-        <butto class="button1"></butto>
-        <ul class="list">
-            <li class="summarize">
-
-            </li>
-            <li>
-
-            </li>
-            <li>
-
-            </li>
-        </ul>
-        <p id="summarize" onload="display()">
-         </p>
-    </div>
-    
-    <article class="five-day-forcast">
+    <nav class="clearfix">
       
-      <h3>Five Day Forcast</h3>
-      <div class="articles-images">
+      <ul class="togglemenu nicely" id="javascript">
+        <li class="hamburger" onclick="ToggleMenu()" >&#9776; Menu</li>
+        <li><a href="#">Home </a></li>
+        <li><a href="#">Preston</a></li>
+        <li><a href="#">Soda</a></li>
+        <li><a href="#">Spring</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
         
-        <img src="anything" alt="some images here">
-        <img src="anything" alt="some images here">
-        <img src="anything" alt="some images here">
-        <img src="anything" alt="some images here">
-        <img src="anything" alt="some images here">
-      </div>
-      <div class="content">
-      <!--<h4>Article Title</h4>-->
-      <p>
+      </ul>
+    </nav>
+
+  <div class="hold">  
+    <div class="banner">
+        <picture>
+          <source media="(min-width: 850px )" srcset="images/large-optimized.jpg">
+          <source media="(min-width: 450px)" srcset="images/medium-optimized-3d.jpg">
+          <source media="(max-width: 449px )" srcset="images/small-optimized.jpg">
+          <img src="images/wdd230_image_franklinOriginal copy.jpg" alt="Hero banner" class="image">
+        </picture>
         
-        This place is for five day forcast This place  is for five day forcast This place is for five day forcast This place is for five day forcast This place is for five day forcast
-      </p>
-      <div class="article-image">
-        <img src="image-goes-here" alt="blue image" class="alone-image">
+
+        <div class="wesummary">
+            <h3>Weather Summary</h3>
+
+            <p><span class="span1">Currently:  </span><span class="span21">N/A</span></p>
+            <p><span class="span1">High:  </span><span class="span22">50</span></p>
+            <p><span class="span1">Wind Chill:  </span><span class="span23"></span></p>
+            <p><span class="span1">Humidity:  </span><span class="span24">N/A</span></p>
+            <p><span class="span1">Wind Speed:  </span><span class="span25">49 mph</span></p>
+        </div>
+
+    </div>
+   
+    <div class="five-forcast">
+        <h3>5 Days Forcast</h3> 
+        <div class="five-day-weather">
+            <img src="images/mon.jpg" alt="Forcast">
+            <img src="images/tuesday-forcast.jpg" alt="Forcast">
+            <img src="images/weds-forcast.jpg" alt="Forcast">
+            <img src="images/thurs-forcast.jpg" alt="Forcast">
+            <img src="images/fri-forcast.jpg" alt="Forcast">
+        </div>
       </div>
-      </div>
-      
-    
-    </article>
-    
+
+        <div class="placeholder">
+            <h3>Article</h3>
+
+               </div>
+
+          <div class="placeholder">
+            <h3>Contact Information</h3>
+            <!-- <img src="image-goes-here" alt="blue image" class="alone-image"> -->
+          </div>
+    </div>      
   </main>
+ 
+
+
   <footer>
+     <p> &copy;2021 | Moses Archibong Ette | Akwa Ibom | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+     <div id="esc">
+       
+     </div>
+       </footer>
+       <script src="javascript6/toggle6.js"></script>
+     <script src="javascript6/windchille.js"></script>
 
-    <div class="site-map">
-        <img src="#" alt="site-map">
-    </div>
-    <div class="foot-para">
-        <div class="foot-para-images">
-            <img src="images/email-icon-transparent-hd-png-download.png" alt="email">
-            <img src="images/contact-logo.png" alt="phone">
-        </div>
-        <div class="social-media">
-          <img src="images/Facebook-logo.png" alt="facebook logo">
-          <img src="images/768px-LinkedIn_logo_initials.png" alt="linkdin logo">
-          <img src="images/twitter_logo2.png" alt="twitter logo">
-        </div>
-        <div class="foot-paragraph">
-          <h4>Contact Information</h4> 
-            <p class="email-phone">imagineryemail@mail.com<br>
-            (+234) 165-00-99-00-99 </p>
-        </div>  
-          
-    </div>
-    
-  </footer>
-
-</body>
-
-
-
+     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+     <script src="../javascript/webfontload.js"></script>
+ 
+    </body>
 </html>
 

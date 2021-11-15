@@ -3,7 +3,7 @@
 @media only screen and (min-width: 35rem) {
 
 /*----- Clearfix: Force an Element not to collapse -----*/
-.clearfixe {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -15,6 +15,7 @@ body, main {
 
 p {
   font-size: 18px;
+  font-family: "Merriweather", "Arimo", serif;
 }
 
 header {
@@ -23,6 +24,7 @@ header {
   background-color: rgb(135, 206, 235);
 }
 
+/* site name and slogan  */
 .note {
   display: block;
   line-height: 1.5px;
@@ -31,11 +33,13 @@ header {
 
 }
 
+/* logo container */
 .motto{
   margin: 5px;
   padding: 5px;
 }
 
+/* contains the site logo, name, and slogan */
 .logo-slogan{
   display: flex;
   flex-direction: row;
@@ -48,8 +52,8 @@ header img {
     height: 100px;
   }
 
+/* Upper most block that displays ads once it is Fridy */
 .head-div {
-  text-align: center;
   height: 100px;
   padding: 5px;
   margin: 0px;
@@ -90,7 +94,7 @@ main .togglemenu  li:first-child {
 }
 
 main nav .togglemenu li a {
-  color: #ffea5a;
+  color: #ffea5e;
   text-decoration: none;
 }
 
@@ -111,27 +115,43 @@ footer {
   height: 100px;
 }
 
-.spand1 {
-  text-align-last: right;
-  width: 80px;
-
-}
-
-.span2 {
+.span21 {
   float: right;
-  color: #ffea5a;
+  width: 80px;
+  color: black;
+
+}
+/* weather summmar paragraphs */
+.span22 {
+  float: right;
+  color: black;
+  width: 80px;
+}
+.span23 {
+  float: right;
+  color:black;
+  width: 80px;
+}
+.span24 {
+  float: right;
+  color: black;
+  width: 80px;
+}
+.span25 {
+  float: right;
+  color: black;
   width: 80px;
 }
 
-
+/* weather summary container */
 .wesummary {
   width: 200px;
   height: 160px;
   line-height: 8px;
-  background-color: #b06bff;
+  background-color: #ffea5e;
   position: absolute;
   top: 15px;
-  left: 15px;
+  left: 20px;
   margin: 0px;
   padding: 5px;
 }
@@ -142,11 +162,16 @@ footer {
   text-align: center;
 }
 
+/* the hero image container */
 .banner {
   display: flex;
   justify-content: center;
   position: relative;
+  width: 100%;
+}
 
+.banner img {
+  width: 100%;
 }
 
 
@@ -159,18 +184,29 @@ footer {
 .five-forcast{
   margin: 0 auto;
   text-align: center;
-  /* width:500px; */
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
   height: 180px;
 }
 
+/* 5-day weather forcast container */
 .five-day-weather {
   display: flex;
   justify-content: space-evenly;
   margin-left: 5px;
   padding: 5px;
+}
+
+picture {
+  width: 100%;
+  margin: 0px;
+  padding: 5px;
+
+}
+
+picture img {
+  width: 100%;
 }
 
 }

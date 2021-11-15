@@ -14,7 +14,7 @@ p {
   font-size: 15px;
 }
 
-.clearfix:after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -31,7 +31,7 @@ header {
   padding: 5px;
   margin: 0px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: rgb(135, 206, 235);
 }
 
@@ -102,7 +102,7 @@ footer {
 }
 
 .spand1 {
-  text-align-last: right;
+  /* text-align-last: right; */
   width: 80px;
 
 }
@@ -110,22 +110,25 @@ footer {
   float: right;
   color: #ffea5a;
   width: 80px;
-  border: 1px solid red;
 }
-.wesummary {
+/* .wesummary {
   width: 200px;
-  height: 150px;
-  line-height: 3px;
+  height: 160px;
+  line-height: 8px;
   background-color: #b06bff;
   position: absolute;
   top: 15px;
-  left: 15px;
-}
-.wesummary h2 {
-  border-bottom: 2px solid black;
+  left: 15px; 
+  margin: 0px;
+  padding: 5px;
+} */
+
+.wesummary h3 {
+  text-align: center;
 }
 
 .banner {
+  margin: 0 auto;
   position: relative;
 }
 

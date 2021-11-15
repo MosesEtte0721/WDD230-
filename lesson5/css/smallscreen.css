@@ -1,5 +1,13 @@
  @media only screen and (min-width:357px) { */
 /* contains bothe the site logo, company's name, and slogan */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 body, main {
   background-color: #EFF0EE;
 }
@@ -7,6 +15,7 @@ body, main {
 p {
   font-size: 15px;
 }
+
 h1 {
   font-family: "Roboto", sans-serif;
 }
@@ -17,6 +26,7 @@ h2, h3 {
 
 header {
 display: flex;
+flex-direction: column;
 background-color: rgb(135, 206, 235);
 }
 
@@ -27,6 +37,14 @@ padding: 2px;
 width: 100px;
 height: 100px;
 }
+
+.head-div {
+  height: 100px;
+  padding: 5px;
+  margin: 0px;
+  background-color: red;
+}
+
 
 .image {
   display: flex;
@@ -49,10 +67,9 @@ margin: 5px;
 padding: 5px;
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.logo-slogan{
+  display: flex;
+  flex-direction: row;
 }
 
 /* main nav {
@@ -65,12 +82,9 @@ main nav .togglemenu a{
   font-size: 20px;
   color: #ffea5a;
 }
-
-/* .togglemenu .hamburger {
-  display: block;
-  margin: 0 auto;
-  width: 30%;
-} */
+main nav .togglemenu a:active {
+  font-size: 25px;
+}
 
 /* displays the list when hitting the menu tab */
 .togglemenu li {
@@ -126,25 +140,23 @@ footer {
 }
 
 .spand1 {
-  display: flex;
-  
+  display: flex; 
   justify-content: flex-start;
   width: 10px;
   height: 10px;
   font-size: 20px;
   margin: 0px;
-
 }
+
 .span2 {
   justify-content: flex-start;
   color: #ffea5a;
-  width: 10px;
-  border: 1px solid red;
-  
+  width: 10px;  
   margin: 0px;
   height: 10px;
 
 }
+
 .wesummary {
   width: 250px;
   height: 150px;
@@ -157,6 +169,30 @@ footer {
 
 .banner {
   position: relative;
+  display: none;
+}
+
+.five-forcast img{
+  width: 100px;
+  height: 100px;
+}
+
+
+.five-forcast{
+  margin: 0 auto;
+  text-align: center;
+  /* width:500px; */
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: 180px;
+}
+
+.five-day-weather {
+  display: none;
+  justify-content: space-evenly;
+  margin-left: 5px;
+  padding: 5px;
 }
 
 

@@ -14,9 +14,9 @@ function ToggleMenu() {
     let month = months[cTime.getMonth()];  // Gets name of the month from (let months = [])
     let years = cTime.getFullYear();
     let all = ` ${day} ${date}, ${month}  ${years}`; // Formats the day, month and year
-    console.log(all)
+    // console.log(all)
     let numTime = cTime.getDay()
-    // document.getElementById("esc").innerHTML = all;
+    document.getElementById("esc").innerHTML = all;
 
 
 
@@ -28,7 +28,7 @@ function ToggleMenu() {
     headDiv.style.color ="white"
 
 // Checks if the day is Friday
-    if ( numTime == 1) {
+    if ( numTime == 5) {
 // displays the block if the day IS Friday
       console.log(headDiv.style.display = "block") 
     }

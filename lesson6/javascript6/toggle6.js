@@ -29,7 +29,7 @@ function ToggleMenu() {
     headDiv.style.color ="white"
 
 // Checks if the day is Friday
-    if ( numTime == 1) {
+    if ( numTime == 5) {
 // displays the block if the day IS Friday
       console.log(headDiv.style.display = "block") 
     }

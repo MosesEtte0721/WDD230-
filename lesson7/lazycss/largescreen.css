@@ -32,7 +32,6 @@ h1 {
   flex-direction: column;
   line-height: 1.5px;
   padding: 5px;
-  /* margin: 0 auto; */
   align-items: center;
 }
 
@@ -46,7 +45,7 @@ header {
 
 main nav {
   padding: 5px;
-  margin: 0px;
+  margin-bottom: 20px;
 }
 
 main nav .togglemenu {
@@ -98,7 +97,7 @@ footer {
   align-items: center;
   height: 100px;
   padding: 5px;
-  margin: 0px;
+  margin-top: 20px;
 }
 
 .placeholder {
@@ -142,17 +141,16 @@ footer {
   position: relative;
 }
 
-picture {
-  width: 100%;
-  height: 100%;
+.picture {
   margin: 0 auto;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.picture picture{
+  width: fit-content;
+  /* height: 400px; */
 }
 
-picture img {
-  margin:0 auto;
-  width: 100%;
-  height: 100%;
-
-
-} 
 }

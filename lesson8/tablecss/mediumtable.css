@@ -1,0 +1,13 @@
+@media only screen and (min-width:550px) {
+    table {
+        width: 500px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .first-th {
+        font-size: 25px;
+    
+    }
+    
+
+}

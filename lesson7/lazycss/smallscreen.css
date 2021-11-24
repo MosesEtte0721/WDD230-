@@ -1,4 +1,4 @@
- @media only screen and (min-width:357px) { */
+@media only screen and (min-width:357px) { */
 /* contains bothe the site logo, company's name, and slogan */
 body, main {
   background-color: #EFF0EE;
@@ -83,6 +83,7 @@ main nav .togglemenu a{
   font-size: 20px;
   color: #ffea5a;
 }
+
 main nav .togglemenu a:active {
   font-size: 25px;
 }
@@ -200,6 +201,27 @@ footer {
 }
 
 
+img[data-src] {
+  filter:blur(0.2em)
 }
+
+
+img {
+  transition: filter 0.5s;
+}
+
+
+.picture picture {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture picture:hover {
+  box-shadow: 2px 3px 20px 5px rgb(135, 206, 235);
+}
+
+}
+
 
 

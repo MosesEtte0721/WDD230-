@@ -73,6 +73,7 @@ screen view or mobile vie */
 main nav {
     background-color: black;
     flex-wrap: nowrap;
+    margin-bottom: 20px;
 
 
   }
@@ -109,7 +110,7 @@ footer {
   align-items: center;
   height: 100px;
   padding: 5px;
-  margin: 5px;
+  margin-top: 20px;
 }
 
 .placeholder {
@@ -178,17 +179,11 @@ footer {
 
 }
 
-.banner img {
-  /* width: 70%; */
-  /* height: 100%; */
-} 
  
-
-
-
 .five-forcast{
   margin-bottom:10px;
   padding: 10px;
+  margin: 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -204,15 +199,19 @@ footer {
   padding: 5px;
 }
 
-picture {
-  width: 100%;
-  margin: 0px;
-  padding: 5px;
+.picture {
+  margin: 0 auto;
+  width: 60%;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
 
 }
 
-picture img {
-  width: 100%;
+.picture picture {
+  width: 300px;
+  /* height: 400px; */
 }
 
 }

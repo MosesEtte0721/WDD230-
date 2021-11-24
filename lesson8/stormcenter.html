@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form building</title>
+    <link rel="stylesheet" href="tablecss/stormcenter.css">
+</head>
+<body>
+
+    <form action="" method="get">
+        <label for="fname" class="required" > Full Name: <input type="text" id="fname" name="firstname" value="lname"  ></label>
+        <label for="email" class="required" > Email: <input type="email" placeholder="emailaddress@mail.com"  id="email" value="email" required> </label>
+        <label for="phone" class="required">Phone number: <input type="tel" name="phone" id="phone" value="num" ></label>
+        <label for="zip" class="required"> Zip Code <input type="number" id="zip" required name="num" > </label>
+        <label for="date" class="required" > Date: <input type="date" id="date"></label>
+        <label for="storm" class="required" > Storm Type: <input id="storm" list="mobile" name="option"></label>
+        <datalist id="mobile"> 
+            <option value="Flash Flood"> </option>
+            <option value="Hail"></option>
+            <option value="Hurrican"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Tornado"></option>
+            <!-- <option value="Vivo"></option> -->
+        </datalist> 
+
+        <label for="severity" class="required" >Storm Severity: <input type="range" id="severity" name="severity" min="1" max="20"></label>
+        <label for="region" class="required" > Storm Region:
+            <select name="regionname" id="region">
+                <option value="select-region">Select Region</option>
+                <option value="preston">Preston</option>
+                <option value="soda-spring">Soda Spring</option>
+                <option value="fish-haven">Fish Haven</option>
+
+            </select>
+        </label>
+            <label for="danger"  > <input type="radio" name="user" id="danger" value="yes" > Yes</label>
+            <label for="indanger" ><input type="radio" name="user" id="indanger" value="no"> No</label>
+            <label for="userindanger"  ><input type="radio" name="user" id="userindanger" value="maybe"> Maybe</label> 
+            <label for="moretext" class="required" ><textarea name="comments" id="moretext" cols="15" rows="5" placeholder="more comments"></textarea></label>
+          
+            <button type="submit" onclick="thanks()" > 
+                Send Feedback
+            </button>
+    </form>
+    <script src="javascript8/thanks.js"></script>
+</body>
+</html>

@@ -199,6 +199,13 @@ footer {
   margin: 10px;
 }
 
+img[data-src] {
+  filter:blur(0.2em)
+}
+
+img {
+  transition: filter 0.5s;
+}
 
 }
 

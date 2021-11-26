@@ -1,0 +1,78 @@
+body {
+    background-color: cyan;
+}
+div {
+    display: block;
+}
+div section img{
+    box-shadow: 3px -3px 5px 5px ;
+    width: 80%;
+    
+
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+section {
+    margin-bottom: 20px;
+    /* width: 90%; */
+    margin-left: 20px;
+    border: 1px solid black;
+    
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    line-height: 15px;
+    padding: 5px;
+    margin-left: 1px;
+    text-align: left;
+}
+h2 {
+    text-align: left;
+}
+
+
+
+@media only screen and (min-width: 35rem)  {
+    div {
+
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: aquamarine;
+        gap: 10px;
+        margin: 0 auto;
+        box-shadow: 3px 3px 5px 5px ;
+        /* background-color: deeppink; */
+    }
+
+    
+    section {
+       border: 1px solid black;
+       border-radius: 2px 5px;
+    }
+
+
+    
+}
+
+
+@media only screen and (min-width: 64rem) {
+    
+    div {
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+}

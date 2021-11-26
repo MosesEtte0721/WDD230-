@@ -1,5 +1,5 @@
-function thanks() {
+function thanks(rate) {
     let thanks = document.querySelectorAll("body");
-    document.innerHTML = thanks
+    document.innerHTML = rate
 
 }

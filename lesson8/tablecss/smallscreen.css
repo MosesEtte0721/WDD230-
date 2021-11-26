@@ -1,0 +1,245 @@
+@media only screen and (min-width:357px) { */
+/* contains bothe the site logo, company's name, and slogan */
+body, main {
+  background-color: #EFF0EE;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+h2, h3 {
+  font-family: "Heebo", sans-serif;
+}
+
+.head-div {
+  height: 100px;
+  padding: 5px;
+  margin: 0px;
+  background-color: red;
+}
+
+
+header {
+display: flex;
+flex-direction: column;
+background-color: rgb(135, 206, 235);
+}
+
+.logo-slogan {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  
+}
+
+header img {
+margin: 2px;
+padding: 2px;
+width: 100px;
+height: 100px;
+}
+
+.image {
+  display: flex;
+  flex: 1 1 auto;
+  width: 600px;
+  height: 200px;
+}
+
+/* container of the company's name and slogan */
+.note {
+display: block;
+line-height: 1px;
+margin: 5px;
+padding: 5px;
+/* margin: 0 auto; */
+}
+
+/* Container of the site logo */
+.motto{
+margin: 5px;
+padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* main nav {
+background-color: darkcyan;
+} */
+
+/* apply effects the to links in "ul" inside "nav" */
+main nav .togglemenu a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffea5a;
+}
+
+main nav .togglemenu a:active {
+  font-size: 25px;
+}
+
+nav nav .togglemenu:active a {
+  background-color: yellow;
+  color: #fff;
+}
+
+/* displays the list when hitting the menu tab */
+.togglemenu li {
+  display: block;
+  list-style: none;
+  margin: 0 auto;
+  width: 30%;
+  padding: 10px;
+  background-color: black;
+} 
+/* hide the menu list when hitting the menu tab */
+.nicely li {
+  display: none;
+  } 
+  
+  /* displays the first list element in the ul li which is the hamburger button */
+  main .togglemenu  li:first-child {
+    display: block;
+    font-size: 32px;
+    background-color: #EFF0EE;
+    cursor:pointer;
+  }
+/* provides effects when hover links in the "ul" */
+ main nav .togglemenu a:hover {
+  color: white;
+  text-decoration: overline;
+  
+} 
+main nav .togglemenu li:active a {
+  background-color: darkgrey;
+}
+
+/* the footer */
+footer {
+  background-color: rgb(135, 206, 235);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 5px;
+  margin: 5px;
+  flex: 1 1 auto;
+  background-color: rgb(135, 206, 235);
+}
+
+.placeholder {
+  margin: 0 auto;
+  width: 300px;
+  height: 40px;
+  background-color: cadetblue;
+  padding: 0px;
+}
+
+.hold {
+  margin: 10px;
+}
+
+.spand1 {
+  display: flex; 
+  justify-content: flex-start;
+  width: 10px;
+  height: 10px;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.span2 {
+  justify-content: flex-start;
+  color: #ffea5a;
+  width: 10px;  
+  margin: 0px;
+  height: 10px;
+
+}
+
+.wesummary {
+  width: 250px;
+  height: 150px;
+  line-height: 3px;
+  background-color: #b06bff;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.banner {
+  position: relative;
+  display: none;
+}
+
+.five-forcast img{
+  width: 100px;
+  height: auto;
+  
+}
+
+
+.five-forcast{
+  margin-bottom: 10px;
+  text-align: center;
+  /* width:500px; */
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: 180px;
+}
+
+.five-day-weather {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+
+img[data-src] {
+  filter:blur(0.2em)
+}
+
+
+img {
+  transition: filter 0.5s;
+}
+
+
+.picture picture {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture picture:hover {
+  box-shadow: 2px 3px 20px 5px rgb(135, 206, 235);
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+fieldset {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+}
+
+
+

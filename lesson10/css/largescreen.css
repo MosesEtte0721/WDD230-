@@ -12,6 +12,8 @@
   padding: 0px;
   margin: 0px;
   background-color: #EFF0EE ;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 
@@ -43,10 +45,7 @@ header {
   background-color: rgb(135, 206, 235);
 }
 
-main nav {
-  padding: 5px;
-  margin-bottom: 20px;
-}
+
 
 main nav .togglemenu {
   display: flex;
@@ -69,68 +68,59 @@ header img {
   height: 100px;
 }
 
-
-.togglemenu li {
+nav ul li {
   list-style: none;
+  display: flex;
+  
+  justify-content: flex-end;
+
 }
 
-main nav button:first-child {
-  display: none;
-}
-
-.togglemenu li a {
-  padding: 5px;
-  font-size: 18px;
+nav ul li a {
+  padding: 10px;
+  font-size: 20px;
   color: #ffea5e;
   text-decoration: none;
 }
 
-.togglemenu li a:hover {
-  color: yellow;
-  text-decoration: overline;
-}
-nav ul li .active a {
-  background-color: #ffea5e;
+#weda-summary {
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 2px 3px 5px 5px;
+  background-color: #ff9a6fbd;
+  border-bottom: 3px solid red;
+ 
 }
 
-footer {
-  background-color:rgb(135, 206, 235);
+#weda-summary h2 {
+  border-bottom: 3px solid red;
+  text-align: center;
+  border-right: none;
+
+}
+
+ #weda-summary div {
+  line-height: 20px;
+
+ }
+
+.five-day {
   display: flex;
   justify-content: center;
-  align-items: center;
-  /* height: 100px; */
-  padding: 5px;
-  margin-top: 20px;
+  
+        
 }
 
-.placeholder {
-  width: 650px;
-  height: 100px;
-}
-.hold {
-  margin: 10px;
+.day {
+  height: 200px;
+  width: 10%;
   padding: 10px;
+  /* line-height: 20px; */
+
 }
-
-
-
-
-.banner {
-  margin: 0 auto;
-  position: relative;
-}
-
-
-
-
- .cities {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);  
-}
-.five-day {
-        display: flex;
-        justify-content: center;
-        /* background-color:rgb(2, 6, 14); */
-    }
 
 }

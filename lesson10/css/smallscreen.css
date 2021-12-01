@@ -16,16 +16,18 @@
   }
 
   p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
   }
 
-  h2, h3 {
+   h3 {
     font-family: "Heebo", sans-serif;
+    font-size: 15px;
+    font-style: italic;
   }
 
   .head-div {
@@ -47,7 +49,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    margin: 0;
+   
   }
 
   header img {
@@ -62,14 +65,15 @@
   .note {
   display: block;
   line-height: 1px;
-  margin: 5px;
-  padding: 5px;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: rap;
   }
 
   /* Container of the site logo */
   .motto{
-  margin: 5px;
-  padding: 5px;
+  margin: 2px;
+  padding: 2px;
   }
 
 
@@ -84,8 +88,9 @@
 
   nav ul {
     padding: 0;
-    margin: 0;
+    margin: 0px;
     list-style: none;
+
   }
 
   /* apply effects the to links in "ul" inside "nav" */
@@ -163,29 +168,27 @@
   }
   
   #weda-summary div{
-    line-height: 5px;
-    background-color: #ff9a6fd0;
+    line-height: 6px;
     
   }
   
   #weda-summary {
-    display: flex;
+    background-color: #ff9a6fd7;
+    display:block ;
     position: absolute;
-    top: 0px;
+    top: 10px;
     right: 30px;
     margin-bottom: 5px;
-    margin-top: 5px;
-    box-shadow: 2px 3px 5px 5px;
-    /* width: fit-content; */
+    margin-top: 2px;
   
   }
   
-  #weda-summary h3 {
+  #weda-summary h2 {
     text-align: left;
-    margin-left: 8px;
-    border-bottom: 5px solid rgba(255, 0, 0, 0.294);
-    
-  
+    margin: 5px; 
+    font-style: italic;
+    margin: 5px;
+    padding: 5px;
   }
   
   
@@ -207,9 +210,10 @@
   .day {
     margin: 0;
     padding: 0;
-    width:15%;
-    border: 1px solid brown;
+    width:10%;
+    border: 1px solid #ff9a6f;
     background-color: rgba(135, 187, 236, 0.835);
+
   }
 
   
@@ -229,6 +233,10 @@
 
   .contact:hover {
     box-shadow: 2px 3px 5px 3px;
+  }
+
+  .contact img:hover {
+    box-shadow: none;
   }
   
 

@@ -1,0 +1,76 @@
+/* .secp {
+    display: flex;
+    background-color:black ;
+    color:#ffea5e;
+    font-weight: bold;
+    padding: 10px;
+    align-content: flex-start;
+    margin: 0px;
+
+}
+
+
+#secp1,#secp2,#secp3,#secp4, #secp5 {
+    text-align: center;
+}
+
+#one1,#two2,#three3,#four,#five5 {
+    color: whitesmoke;
+}
+
+#weda-summary div{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+#weda-summary {
+    background-color: rgba(34, 139, 39, 0.4);
+    
+}
+
+#weda-summary h1 {
+    margin-left: 40px;
+
+}
+
+.span {
+    padding: 5px;
+    margin: 2px;
+    text-align: left;
+
+}
+
+.day img {
+    margin-top: 0 auto;
+}
+
+.five-day {
+    width: 100%;
+}
+
+.day {
+    max-width:70%;
+    border: 1px solid brown;
+    background-color: rgba(135, 187, 236, 0.835);
+}
+
+@media only screen and (min-width:800px) {
+    .five-day {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width:350px) {
+    .five-day {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .day {
+        max-width:70%;
+        background-color: rgba(135, 187, 236, 0.835);
+    }
+    
+} 

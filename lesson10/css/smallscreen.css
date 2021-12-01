@@ -1,0 +1,266 @@
+
+/* contains bothe the site logo, company's name, and slogan */
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .banner  img {
+    width: 100%;
+  }
+
+  body, main {
+    background-color: #EFF0EE;
+    
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+  }
+
+  h2, h3 {
+    font-family: "Heebo", sans-serif;
+  }
+
+  .head-div {
+    height: 100px;
+    padding: 5px;
+    margin: 0px;
+    background-color: red;
+  }
+
+
+  header {
+    margin:0px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(135, 206, 235);
+  }
+
+  .logo-slogan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+  header img {
+  margin: 2px;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  }
+
+
+  /* container of the company's name and slogan */
+  .note {
+  display: block;
+  line-height: 1px;
+  margin: 5px;
+  padding: 5px;
+  }
+
+  /* Container of the site logo */
+  .motto{
+  margin: 5px;
+  padding: 5px;
+  }
+
+
+
+  nav{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    margin: 0 auto;
+  }
+
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  /* apply effects the to links in "ul" inside "nav" */
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffea5a;
+    padding: 10px;
+    margin: 0px;
+    border-top: 1px solid #EFF0EE;
+  }
+
+  nav ul .active a{
+    background-color:#ff9a6f7e;
+  }
+
+  /* provides effects when hover links in the "ul" */
+  main nav ul li a:hover {
+    background-color: rgba(135, 195, 235, 0.5354);
+  } 
+
+
+  nav ul li {
+    text-align: center;
+  list-style: none;
+    padding: 0px;
+    margin: 0px;
+  } 
+
+  /* hide the menu list when hitting the menu tab */
+  .nicely li {
+    display: none;
+    } 
+    
+  /* displays the list when hitting the menu tab */
+  main nav button:first-child {    background-color: rgba(255, 231, 231, 0.938);
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding: 5px;
+  }
+
+  
+  .banner {
+    position: relative;
+    margin: 0;
+  }
+  
+
+
+  .secp {
+    background-color:black ;
+    color:#ffea5e;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px;
+  
+  }
+  
+  
+  #secp1,#secp2,#secp3,#secp4, #secp5 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  #one1,#two2,#three3,#four4,#five5 {
+    color: yellow;font-family: cursive;
+  }
+  
+  #weda-summary div{
+    line-height: 5px;
+    background-color: #ff9a6fd0;
+    
+  }
+  
+  #weda-summary {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 3px 5px 5px;
+    /* width: fit-content; */
+  
+  }
+  
+  #weda-summary h3 {
+    text-align: left;
+    margin-left: 8px;
+    border-bottom: 5px solid rgba(255, 0, 0, 0.294);
+    
+  
+  }
+  
+  
+  
+  .five-day {
+    padding: 5px;
+    margin:10px;
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+  .span {
+    padding: 5px;
+    margin: 2px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .day {
+    margin: 0;
+    padding: 0;
+    width:15%;
+    border: 1px solid brown;
+    background-color: rgba(135, 187, 236, 0.835);
+  }
+
+  
+  .contact {
+    margin-top: 70px;
+    /* margin-left: 5px; */
+    padding: 5px;
+    /* max-width: 90%; */
+    background-color: #ff9a6f;
+  }
+
+  .contact img {
+    width: 25px;
+    height: 25px;
+    box-shadow: 2px 3px 5px ;
+  }
+
+  .contact:hover {
+    box-shadow: 2px 3px 5px 3px;
+  }
+  
+
+/* the footer */
+footer {
+  background-color: rgb(135, 206, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  flex: 1 1 auto;
+  background-color: rgb(135, 206, 235);
+} 
+
+.hold {
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

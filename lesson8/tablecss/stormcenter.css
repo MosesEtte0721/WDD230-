@@ -32,8 +32,8 @@ form  .required input:required:valid {
 }
 
 .set1, .set2 {
-    margin: 20px;
-    padding: 20px
+    margin: 10px;
+    padding: 10px
 }
 
 legend {

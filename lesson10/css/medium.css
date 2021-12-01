@@ -1,0 +1,156 @@
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Merriweather", "Arimo", serif;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(135, 206, 235);
+}
+
+/* site name and slogan  */
+.note {
+  display: block;
+  line-height: 1.5px;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+/* logo container */
+.motto{
+  margin: 5px;
+  padding: 5px;
+}
+
+/* contains the site logo, name, and slogan */
+.logo-slogan{
+  display: flex;
+  flex-direction: row;
+}
+
+header img {
+    margin: 2px;
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+  }
+
+
+/* hide the hamburger button for the small 
+screen view or mobile vie */
+.nicely {
+  display: none;
+}
+ 
+main nav {
+    background-color: black;
+    /* flex-wrap: nowrap; */
+    margin-bottom: 0px;
+    padding: 10px;
+
+  }
+
+  main nav li {
+    flex-wrap: nowrap;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffea5a;
+    padding: 5px;
+    margin: 0px;
+    border: none;
+  }
+  
+
+main nav .togglemenu {
+  display: flex; 
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-evenly;
+} 
+
+main  nav .togglemenu li {
+  display: flex;
+  flex: 1 1 auto;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+main nav button:first-child {
+  display: none;
+}
+
+
+.banner {
+  margin: 0px;
+}
+
+#weda-summary {
+ margin-bottom: 10px;
+ position: absolute;
+ top: 17px;
+ right: 35px;
+}
+
+#weda-summary div{
+background-color: #ff9a6fd0;
+margin: 0;
+padding: 2px;
+
+}
+ 
+.five-day {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.day {
+  margin-top: 10px;
+  background-color: rgba(135, 187, 236, 0.835);
+  max-width: 30%;
+  margin-left: 1px;
+  line-height: 15px;  
+}
+
+.contact {
+  margin-left: 5px;
+}
+
+}
+
+
+
+
+
+
+
+

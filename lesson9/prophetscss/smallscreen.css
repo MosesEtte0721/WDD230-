@@ -48,8 +48,8 @@ height: 100px;
 .image {
   display: flex;
   flex: 1 1 auto;
-  width: 600px;
-  height: 200px;
+  width: 100%;
+  max-height: 500px;
 }
 
 /* container of the company's name and slogan */
@@ -78,18 +78,29 @@ background-color: darkcyan;
 } */
 
 /* apply effects the to links in "ul" inside "nav" */
-main nav .togglemenu a{
+ nav ul li a{
   text-decoration: none;
   font-size: 20px;
   color: #ffea5a;
 }
 
-main nav .togglemenu a:active {
-  font-size: 25px;
+nav ul .active a {
+  background-color: darkgrey;
+}
+/* provides effects when hover links in the "ul" */
+ nav ul li a:hover {
+  color: white;
+  text-decoration: overline;
+  
+} 
+
+nav ul li:active a{ 
+  background-color: darkgreen;
 }
 
+
 /* displays the list when hitting the menu tab */
-.togglemenu li {
+nav ul li {
   display: block;
   list-style: none;
   margin: 0 auto;
@@ -103,18 +114,12 @@ main nav .togglemenu a:active {
   } 
   
   /* displays the first list element in the ul li which is the hamburger button */
-  main .togglemenu  li:first-child {
+  main ul  li:first-child {
     display: block;
     font-size: 32px;
     background-color: #EFF0EE;
     cursor:pointer;
   }
-/* provides effects when hover links in the "ul" */
- main nav .togglemenu a:hover {
-  color: white;
-  text-decoration: overline;
-  
-} 
 
 /* the footer */
 footer {
@@ -208,6 +213,7 @@ img[data-src] {
 
 img {
   transition: filter 0.5s;
+  width: 100%;
 }
 
 
@@ -220,6 +226,54 @@ img {
 .picture picture:hover {
   box-shadow: 2px 3px 20px 5px rgb(135, 206, 235);
 }
+
+.cities{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact img{
+  width: 25px;
+  height: 25px;
+  box-shadow: 2px 3px 5px ;
+}
+ .city1, .city2, .city3 {
+  margin: 15px;
+  padding: 5px;
+  line-height: 5px;
+  background-color: #ff9a6f;
+  width: auto;
+
+}
+
+.city1 h3, .city2 h3, .city3 h3 {
+  font-style: italic;
+}
+
+.city1 img, .city2 img, .city3 img {
+  margin: 5px;
+  padding: 5px;
+  max-height: 180px;
+  width: 95%;
+  line-height: 8px;
+  box-shadow: 2px 3px 5px ;
+
+
+
+}
+
+
+.contact {
+  margin: 10px;
+  padding: 5px;
+}
+.contact:hover {
+  box-shadow: -2px 3px 5px 3px;
+}
+.contact h3 {
+  color: #ffea5a;
+}
+
 
 
 

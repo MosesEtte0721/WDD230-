@@ -7,8 +7,10 @@ div {
 div section img{
     box-shadow: 3px -3px 5px 5px ;
     width: 80%;
-    
+}
 
+form {
+    width: 80vw;
 }
 
 h1 {

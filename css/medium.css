@@ -26,6 +26,7 @@
     padding: 2px;
   }
   footer {
+    text-align: center;
     line-height: 20px;
     display: flex;
     flex-direction: column;

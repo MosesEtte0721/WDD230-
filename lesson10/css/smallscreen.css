@@ -231,12 +231,11 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 70px;
+    margin: 10px;
     padding: 5px;
     margin: 0 auto;
     max-width: 30%;
     box-shadow: 3px 3px 3px 5px;
-    border-radius: 10px;
   }
   
   .contact {
@@ -272,7 +271,6 @@ footer {
   margin-top: 0px;
   margin-left: 0px;
   flex: 1 1 auto;
-  background-color: rgb(135, 206, 235);
 
 } 
 
@@ -285,7 +283,7 @@ footer p {
   margin: 10px;
 }
 .ref {
-  width: 30%;
+  width: 40%;
   margin: 0 auto;  
 }
 

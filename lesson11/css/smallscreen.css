@@ -230,7 +230,7 @@
 
   #events {
     flex-wrap: nowrap;
-    margin-top: 70px;
+    margin: 10px;
     width:30%;
     padding: 5px;
     box-shadow: 3px 3px 3px 5px;
@@ -280,7 +280,7 @@ footer p {
 }
 
 .ref {
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
 }
 

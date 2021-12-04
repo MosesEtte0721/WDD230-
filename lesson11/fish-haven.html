@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston town live weather summaary and five days weather forcast and events">
+    <title>Api Testing</title>
+    <link rel="shortcut icon" href="images/optimized-logo.ico">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/smallscreen.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/largescreen.css">
+    <script src="api-test-javascript/time.js" defer ></script>
+    <script src="api-test-javascript/toogle9.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Merriweather:wght@300&family=Roboto&family=Spectral&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <div class="head-div">
+    
+        </div>
+        <!-- <script src="javascript6/toggle6.js"></script> -->
+    
+        <div class="logo-slogan">
+        <section class="motto">
+          <img src="images/weather-logo-optimized(new).jpeg" alt="logo">
+        
+         </section>  
+         <div class="note">
+          <h1> Mosett  weather</h1>
+          <h3 class="italic">reliable weather forecast</h3>
+        </div>    
+      </div>
+    
+      </header>
+    <main>
+
+        <nav class="clearfix">
+            <button onclick="ToggleMenu()">&#9776; Menu</button>
+            <ul class="togglemenu nicely" id="javascript">
+              <li ><a href="../lesson9/index.html">Home </a></li>
+              <li ><a href="../lesson10/preston-10.html" >Preston</a></li>
+              <li><a href="../lesson11/soda-spring.html">Soda Springs</a></li>
+              
+              <li class="active"><a  href="../lesson11/fish-haven.html">Fish Haven</a></li>
+              <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+              <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+              
+            </ul>
+          </nav>
+<div class="banner">
+    <picture>
+        <source media="(min-width: 64rem)" srcset="images/wdd230_image_franklinOriginal(large).jpeg" >
+        <source media="(min-width: 35rem )" srcset="images/wdd230_image_franklinOriginal(medium).jpeg" >
+        <source media="(max-width: 34.9rem)" srcset="images/wdd230_image_franklinOriginal(small).jpeg" >
+        <img src="images/wdd230_image_franklinOriginal(fallback).jpeg" alt="Hero Image">
+    </picture>
+
+
+        <div id="weda-summary">  
+            <div>
+                <h2>weather summary</h2>
+                <p><span class="span">currently: </span><span id="one1"></span></p>
+                
+                <p><span class="span">High: </span><span id="two2"></span></p>
+                    
+                <p><span class="span">Wind Chill: </span><span id="three3"></span></p>
+                
+                <p><span class="span">Humidity: </span><span id="four4"></span></p>
+
+                <p><span class="span">Wind Speed: </span><span id="five5"></span></p>
+            </div>
+        </div>
+    </div>
+        <div class="five-day">
+                <div class="day"> 
+                    <p class="secp">Mon</p >
+                    <img id="img1">
+                    <p id="secp1"></p>
+                </div>
+            
+
+                <div class="day">
+                    <p class="secp">Tue</p>
+                    <img id="img2">
+                    <p id="secp2"></p>
+                </div>
+            
+                <article class="day">
+                   
+                        <p class="secp">Wed</p>
+                 
+                    <img id="img3">
+                    <p id="secp3"></p>
+                </article>
+            
+
+           
+                <div class="day">
+                    <p class="secp">Thur</p>
+                    <img id="img4">
+                    <p id="secp4"></p>
+                </div>
+            
+                <div class="day">
+                    <p class="secp">Fri</p>
+                    <img id="img5">
+                    <p id="secp5"></p>
+                </div>
+            
+        </div>
+
+
+        <div id="events">
+            <h3 id="eventsh"></h3>
+            <p id="events1"></p>
+            <p id="events2"></p>
+            <p id="events3"></p>
+        </div>
+        <div class="ref">
+             <p> <span>Weather is provided by:</span><a href="https://openweathermap.org/">OpenWeathereMap</a></p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>&phone;    Phone: 99999999999 </p>
+            <p>&#9993;    Email: seeyouthere@anyemail.com</p>
+            <p>WhatsApp:  +234-689-4435-4564 </p>
+            <a href="https://web.facebook.com/senatoette"><img src="images/Facebook_Logo.png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/in/mosesette/"><img src="images/Linkedin-logo-1-550x550-300x300 (1).png" alt="Linkedin"></a>
+            <a href="https://www.instagram.com/senatoette/"><img src="images/instagram_logo.jpg" alt="Instagram"></a>
+
+        </div>
+    </main>
+    <script src="api-test-javascript/fish-haven.js"></script>
+<footer>
+    <p class="p1"></p>
+    <p> &copy;2021 | Moses Archibong Ette | Akwa Ibom | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+    <div id="esc">
+    
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="api-test-javascript/webfontload.js"></script>
+
+</footer>
+</body>
+
+</html>

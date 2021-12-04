@@ -10,10 +10,8 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  max-width: 90vw;
-  margin: 0 auto;
+  margin: 0px;
+  padding: 0px;
 }
 
 p {
@@ -68,22 +66,20 @@ screen view or mobile vie */
  
 main nav {
     background-color: black;
-    /* flex-wrap: nowrap; */
+   
     margin-bottom: 0px;
-    padding: 10px;
 
   }
 
   main nav li {
     flex-wrap: nowrap;
+    
   }
   
   nav ul li a {
-    display: block;
     text-decoration: none;
     font-size: 20px;
     color: #ffea5a;
-    padding: 5px;
     margin: 0px;
     border: none;
   }
@@ -92,16 +88,15 @@ main nav {
 main nav .togglemenu {
   display: flex; 
   margin: 0px;
-  padding: 0px;
-  justify-content: space-evenly;
+  
 } 
 
 main  nav .togglemenu li {
   display: flex;
   flex: 1 1 auto;
-  padding: 0px;
   margin: 0px;
   list-style: none;
+  justify-content: flex-end;
 }
 
 main nav button:first-child {
@@ -133,7 +128,7 @@ padding: 2px;
  
 .five-day {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
  
 }
 
@@ -142,11 +137,17 @@ padding: 2px;
   background-color: rgba(135, 187, 236, 0.835);
   max-width: 30%;
   margin-left: 1px;
-  line-height: 15px;  
+  padding: 10px;
+}
+
+#events {
+  margin: 5px;
+
 }
 
 .contact {
   margin-left: 5px;
+  margin-top: 10px;
 }
 
 }

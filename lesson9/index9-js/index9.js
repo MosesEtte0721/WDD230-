@@ -19,11 +19,11 @@ fetch(jLink).then(resoponse => {
         const image =  document.createElement('img');
 
 
-        townName.textContent = `${cities[1].name}`;
-        yearFounded.textContent = `Year Founded: ${cities[1].yearFounded} `;
-        population.textContent = `Population: ${cities[1].currentPopulation}`;
-        rainFall.textContent = `Annual Rainfall: ${cities[1].averageRainfall}`;
-        motto.textContent = `${cities[1].motto}`;
+        townName.textContent = `${cities[6].name}`;
+        yearFounded.textContent = `Year Founded: ${cities[6].yearFounded} `;
+        population.textContent = `Population: ${cities[6].currentPopulation}`;
+        rainFall.textContent = `Annual Rainfall: ${cities[6].averageRainfall}`;
+        motto.textContent = `${cities[6].motto}`;
 
         city1.appendChild(townName);
         city1.appendChild(motto);
@@ -60,7 +60,7 @@ fetch(jLink).then(resoponse => {
         image1.setAttribute('alt',"Fish Haven")
         city2.appendChild(image1);
 
-// Franklin (city3)
+// soda springs (city3)
         const city3 = document.querySelector('.city3');
         const yearFounded2 = document.createElement('p');
         const population2 = document.createElement('p');
@@ -69,11 +69,11 @@ fetch(jLink).then(resoponse => {
         const townName2 = document.createElement('h1');
         const image2 = document.createElement('img');
 
-        townName2.textContent = `${cities[3].name}`;
-        yearFounded2.textContent = `Year Founded: ${cities[3].yearFounded} `;
-        population2.textContent = `Population: ${cities[3].currentPopulation}`;
-        rainFall2.textContent = `Annual Rainfall: ${cities[3].averageRainfall}`;
-        motto2.textContent = `${cities[3].motto}`;
+        townName2.textContent = `${cities[0].name}`;
+        yearFounded2.textContent = `Year Founded: ${cities[0].yearFounded} `;
+        population2.textContent = `Population: ${cities[0].currentPopulation}`;
+        rainFall2.textContent = `Annual Rainfall: ${cities[0].averageRainfall}`;
+        motto2.textContent = `${cities[0].motto}`;
 
         city3.appendChild(townName2);
         city3.appendChild(motto2);

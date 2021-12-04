@@ -13,7 +13,7 @@ form .required input, form label select, form label textarea {
     color: #555
 
 }
-button {
+form button {
     width: 200px;
     padding: 10px;
     margin-left: 20px;

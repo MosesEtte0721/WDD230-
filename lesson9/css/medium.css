@@ -64,6 +64,8 @@ header img {
   background-color: red;
 }
 
+
+
 /* hide the hamburger button for the small 
 screen view or mobile vie */
 .nicely {
@@ -72,45 +74,53 @@ screen view or mobile vie */
  
 main nav {
     background-color: black;
-    flex-wrap: nowrap;
-    margin-bottom: 20px;
-
+    margin-bottom: 0px;
 
   }
 
-main nav .togglemenu {
-  display: flex;
+  main nav li {
+    flex-wrap: nowrap;
+  }
   
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffea5a;
+    padding: 15px;
+    margin: 0px;
+    border: none;
+  }
+  
+
+main nav .togglemenu {
+  display: flex; 
   margin: 0px;
-  padding: 5px;
-  justify-content: space-around;
+  
 } 
 
-main .togglemenu  li {
+main  nav .togglemenu li {
   display: flex;
   flex: 1 1 auto;
-  padding: 10px;
+  padding: 0px;
   margin: 0px;
   list-style: none;
+  justify-content: flex-end;
 }
 
-main .togglemenu  li:first-child {
+main nav button:first-child {
   display: none;
 }
 
-main nav .togglemenu li a {
-  color: #ffea5e;
-  text-decoration: none;
-}
+
 
 footer {
   background-color: rgb(135, 206, 235);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
   padding: 5px;
-  margin-top: 20px;
+  margin: 5px;
 }
 
 .placeholder {
@@ -122,54 +132,7 @@ footer {
   flex-wrap: nowrap;
 }
 
-.span21 {
-  float: right;
-  width: 80px;
-  color: black;
 
-}
-/* weather summmar paragraphs */
-.span22 {
-  float: right;
-  color: black;
-  width: 80px;
-}
-.span23 {
-  float: right;
-  color:black;
-  width: 80px;
-}
-.span24 {
-  float: right;
-  color: black;
-  width: 80px;
-}
-.span25 {
-  float: right;
-  color: black;
-  width: 80px;
-}
-
-/* weather summary container */
-.wesummary {
-  width: 200px;
-  height: 160px;
-  line-height: 8px;
-  background-color: #ffea5e;
-  position: absolute;
-  top: 15px;
-  left: 5px;
-  margin: 0px;
-  padding: 5px;
-}
-
-
-.wesummary h3 {
-  /* border-top: 2px solid black; */
-  text-align: center;
-}
-
-/* the hero image container */
 .banner {
   display: flex;
   justify-content: center;

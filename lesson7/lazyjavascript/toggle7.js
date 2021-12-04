@@ -17,7 +17,7 @@ function ToggleMenu() {
     
 
     let numTime = cTime.getDay()
-    // document.getElementById("esc").innerHTML = all;
+    document.getElementById("esc").innerHTML = all;
 
 
 

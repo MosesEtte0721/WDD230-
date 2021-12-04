@@ -75,4 +75,16 @@ const descr = `${wida.list[0].weather[0].description}`;
     document.getElementById('secp5').textContent= `${wida.list[33].main.temp}`;
 
 
+});
+
+const jsonLink = "https://byui-cit230.github.io/weather/data/towndata.json"
+
+fetch(jsonLink).then(res => {
+    return res.json()
+}).then( cap => {
+    console.log(cap.towns[6].events);
+  var event1 =  document.getElementById('events1').innerHTML =cap.towns[6].events[0];
+  var event2 = document.getElementById('events2').innerHTML =cap.towns[6].events[1];
+  var event3 = document.getElementById('events3').innerHTML =cap.towns[6].events[2];
+  var event4 =  document.getElementById('eventsh').innerHTML = " Preston Town Events";
 })

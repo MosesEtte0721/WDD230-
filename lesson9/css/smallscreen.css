@@ -8,6 +8,10 @@ p {
   font-size: 15px;
 }
 
+html {
+  margin: 5px;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
@@ -22,6 +26,7 @@ h2, h3 {
   padding: 5px;
   margin: 0px;
   background-color: red;
+  text-align: center;
 }
 
 
@@ -73,53 +78,60 @@ padding: 5px;
   clear: both;
 }
 
-/* main nav {
-background-color: darkcyan;
-} */
+main nav{
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+
 
 /* apply effects the to links in "ul" inside "nav" */
- nav ul li a{
+
+nav ul li a {
+  display: block;
   text-decoration: none;
   font-size: 20px;
   color: #ffea5a;
+  padding: 15px;
+  margin: 0px;
+  border-top: 1px solid #EFF0EE;
 }
 
-nav ul .active a {
-  background-color: darkgrey;
+nav ul .active a{
+  background-color:#ff9a6f7e;
 }
+
 /* provides effects when hover links in the "ul" */
- nav ul li a:hover {
-  color: white;
-  text-decoration: overline;
-  
+main nav ul li a:hover {
+  background-color: rgba(135, 195, 235, 0.5354);
 } 
 
-nav ul li:active a{ 
-  background-color: darkgreen;
-}
 
-
-/* displays the list when hitting the menu tab */
 nav ul li {
-  display: block;
-  list-style: none;
-  margin: 0 auto;
-  width: 30%;
-  padding: 10px;
-  background-color: black;
+  text-align: center;
+list-style: none;
+  padding: 0px;
+  margin: 0px;
 } 
+
 /* hide the menu list when hitting the menu tab */
 .nicely li {
   display: none;
   } 
   
-  /* displays the first list element in the ul li which is the hamburger button */
-  main ul  li:first-child {
-    display: block;
-    font-size: 32px;
-    background-color: #EFF0EE;
-    cursor:pointer;
-  }
+/* displays the list when hitting the menu tab */
+main nav button:first-child {    background-color: rgba(255, 231, 231, 0.938);
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
 
 /* the footer */
 footer {
@@ -135,97 +147,26 @@ footer {
   background-color: rgb(135, 206, 235);
 }
 
-.placeholder {
-  margin: 0 auto;
-  width: 300px;
-  height: 40px;
-  background-color: cadetblue;
-  padding: 0px;
+footer p {
+  font-weight: bold;
+
 }
+
 
 .hold {
   margin: 10px;
 }
 
-.spand1 {
-  display: flex; 
-  justify-content: flex-start;
-  width: 10px;
-  height: 10px;
-  font-size: 20px;
-  margin: 0px;
-}
-
-.span2 {
-  justify-content: flex-start;
-  color: #ffea5a;
-  width: 10px;  
-  margin: 0px;
-  height: 10px;
-
-}
-
-.wesummary {
-  width: 250px;
-  height: 150px;
-  line-height: 3px;
-  background-color: #b06bff;
-  position: absolute;
-  top: 15px;
-  left: 15px;
-}
-
 .banner {
   position: relative;
-  display: none;
+  display: block;
 }
-
-.five-forcast img{
-  width: 100px;
-  height: auto;
-  
-}
-
-
-.five-forcast{
-  margin-bottom: 10px;
-  text-align: center;
-  /* width:500px; */
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  height: 180px;
-}
-
-.five-day-weather {
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 5px;
-  padding: 5px;
-  margin: 10px;
-}
-
-
-img[data-src] {
-  filter:blur(0.2em)
-}
-
 
 img {
-  transition: filter 0.5s;
+ 
   width: 100%;
 }
 
-
-.picture picture {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.picture picture:hover {
-  box-shadow: 2px 3px 20px 5px rgb(135, 206, 235);
-}
 
 .cities{
   display: flex;
@@ -237,10 +178,23 @@ img {
   height: 25px;
   box-shadow: 2px 3px 5px ;
 }
+
+.contact img:hover {
+  box-shadow: none;
+}
+
+.contact {
+  margin: 5px;
+  padding: 5px;
+  background-color: #ff9a6f;
+}
+.contact:hover {
+  box-shadow: -2px 3px 5px 3px;
+}
+
  .city1, .city2, .city3 {
   margin: 15px;
   padding: 5px;
-  line-height: 5px;
   background-color: #ff9a6f;
   width: auto;
 
@@ -254,8 +208,6 @@ img {
   margin: 5px;
   padding: 5px;
   max-height: 180px;
-  width: 95%;
-  line-height: 8px;
   box-shadow: 2px 3px 5px ;
 
 
@@ -263,16 +215,7 @@ img {
 }
 
 
-.contact {
-  margin: 10px;
-  padding: 5px;
-}
-.contact:hover {
-  box-shadow: -2px 3px 5px 3px;
-}
-.contact h3 {
-  color: #ffea5a;
-}
+
 
 
 

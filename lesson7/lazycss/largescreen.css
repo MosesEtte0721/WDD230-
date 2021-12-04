@@ -36,7 +36,7 @@ h1 {
 }
 
 header {
-  padding: 5px;
+  padding: 0px;
   margin: 0px;
   display: flex;
   
@@ -44,8 +44,7 @@ header {
 }
 
 main nav {
-  padding: 5px;
-  margin-bottom: 20px;
+  margin: 0px;
 }
 
 main nav .togglemenu {
@@ -69,88 +68,50 @@ header img {
   height: 100px;
 }
 
-
-.togglemenu li {
+nav ul li {
   list-style: none;
+  display: flex;
+  
+  justify-content: flex-end;
+
 }
 
-main .togglemenu  li:first-child {
-  display: none;
-}
-
-.togglemenu li a {
-  padding: 5px;
-  font-size: 18px;
+nav ul li a {
+  font-size: 20px;
   color: #ffea5e;
   text-decoration: none;
+
 }
 
-.togglemenu li a:hover {
-  color: yellow;
-  text-decoration: overline;
-}
 
 footer {
   background-color:rgb(135, 206, 235);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  padding: 5px;
-  margin-top: 20px;
+   padding: 5px;
+   margin: 5px;
 }
 
-.placeholder {
-  width: 650px;
-  height: 100px;
-}
-.hold {
+
+/* .hold {
   margin: 10px;
   padding: 10px;
-}
+} */
 
-.spand1 {
-  /* text-align-last: right; */
-  width: 80px;
 
-}
-.span2 {
-  float: right;
-  color: #ffea5a;
-  width: 80px;
-}
-.wesummary {
-  flex: 1 1 auto;
-  width: 200px;
-  height: 160px;
-  line-height: 8px;
-  background-color: #ffea5e;
-  position: absolute;
-  top: 15px;
-  left: 20px; 
-  margin: 0px;
-  padding: 10px;
-}
 
-.wesummary h3 {
-  text-align: center;
-}
-
-.banner {
-  margin: 0 auto;
-  position: relative;
-}
 
 .picture {
-  margin: 0 auto;
-  width: 70%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 3px;
 }
-.picture picture{
-  width: fit-content;
-  /* height: 400px; */
+
+.picture img {
+  width: 350px;
+  height: 300px;
+  margin: 0px;
 }
 
 }

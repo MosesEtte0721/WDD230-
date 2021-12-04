@@ -1,0 +1,121 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  body, main{
+  padding: 0px;
+  margin: 0px;
+  background-color: #EFF0EE ;
+  
+  margin: 0 auto;
+}
+
+
+
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+.note {
+  margin: 5px;
+  flex-direction: column;
+  line-height: 1.5px;
+  padding: 5px;
+  align-items: center;
+}
+
+header {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  
+  background-color: rgb(135, 206, 235);
+}
+
+
+
+main nav .togglemenu {
+  display: flex;
+  flex: 1 1 auto;
+  background-color: black;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.motto {
+  margin-left: 12px;
+}
+
+header img {
+  margin: 2px;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+}
+
+nav ul li {
+  list-style: none;
+  display: flex;
+  
+  justify-content: flex-end;
+
+}
+
+nav ul li a {
+  padding: 15px;
+  font-size: 20px;
+  color: #ffea5e;
+  text-decoration: none;
+}
+
+#weda-summary {
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 2px 3px 5px 5px;
+  background-color: #ff9a6fbd;
+  border-bottom: 3px solid red;
+ 
+}
+
+#weda-summary h2 {
+  border-bottom: 3px solid red;
+  text-align: center;
+  border-right: none;
+
+}
+
+ #weda-summary div {
+  line-height: 20px;
+
+ }
+
+.five-day {
+  display: flex; 
+}
+
+
+.day p {
+  line-height: 15px;
+}
+.contact {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+
+}

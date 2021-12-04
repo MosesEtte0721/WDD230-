@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston town live weather summaary and five days weather forcast and events">
     <title>Api Testing</title>
+    <link rel="shortcut icon" href="images/optimized-logo.ico">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/smallscreen.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/largescreen.css">
-    
+    <script src="api-test-javascript/time.js" defer ></script>
+    <script src="api-test-javascript/toogle9.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Merriweather:wght@300&family=Roboto&family=Spectral&display=swap" rel="stylesheet">
+
+
     <!-- <link rel="stylesheet" href="css/api.css"> -->
 </head>
 <body>
@@ -21,12 +29,12 @@
     
         <div class="logo-slogan">
         <section class="motto">
-          <img src="../lesson3/weather-logo-optimized.png" alt="logo">
+          <img src="images/weather-logo-optimized(new).jpeg" alt="logo">
         
          </section>  
          <div class="note">
           <h1> Mosett  weather</h1>
-          <h3 class="italic">reliable weather forcast</h3>
+          <h3 class="italic">reliable weather forecast</h3>
         </div>    
       </div>
     
@@ -36,13 +44,12 @@
         <nav class="clearfix">
             <button onclick="ToggleMenu()">&#9776; Menu</button>
             <ul class="togglemenu nicely" id="javascript">
-              <!-- <li class="hamburger" onclick="ToggleMenu()" >&#9776; Menu</li> -->
               <li ><a href="../lesson9/index.html">Home </a></li>
               <li class="active"><a href="preston-10.html" >Preston</a></li>
-              <li><a href="#">Soda</a></li>
-              <li><a href="#">Spring</a></li>
-              <li><a href="#">Fish Haven</a></li>
-              <li><a href="#">Storm Center</a></li>
+              <li><a href="../lesson11/soda-spring.html">Soda Springs</a></li>
+              <li><a href="../lesson11/fish-haven.html">Fish Haven</a></li>
+              <li><a href="../lesson8/stormcenter.html">Storm Center </a></li>
+              <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
               
             </ul>
           </nav>
@@ -78,40 +85,40 @@
                 </div>
             
 
-            <!-- <article class="artmon"></article> -->
                 <div class="day">
                     <p class="secp">Tue</p>
                     <img id="img2">
                     <p id="secp2"></p>
                 </div>
-            <!-- </article> -->
 
-            <!-- <article class="artmon"></article> -->
                 <article class="day">
-                    <!-- <div> -->
                         <p class="secp">Wed</p>
-                    <!-- </div> -->
                     <img id="img3">
                     <p id="secp3"></p>
                 </article>
-            <!-- </article> -->
 
-            <!-- <article class="artmon"></article> -->
                 <div class="day">
                     <p class="secp">Thur</p>
                     <img id="img4">
                     <p id="secp4"></p>
                 </div>
-            <!-- </article> -->
 
-            <!-- <article class="artmon"> -->
                 <div class="day">
                     <p class="secp">Fri</p>
                     <img id="img5">
                     <p id="secp5"></p>
                 </div>
-            <!-- </article> -->
         </div>
+
+
+        <div id="events">
+            <h3 id="eventsh"></h3>
+            <p id="events1"></p>
+            <p id="events2"></p>
+            <p id="events3"></p>
+        </div>
+        <p class="ref"> <span>Weather is provided by:</span><a href="https://openweathermap.org/">OpenWeathereMap</a></p>
+
         <div class="contact">
             <h2>Contact Us</h2>
             <p>&phone;    Phone: 99999999999 </p>
@@ -124,7 +131,7 @@
         </div>
     </main>
     <script src="api-test-javascript/weatherapi.js"></script>
-</body>
+
 <footer>
     <p class="p1"></p>
     <p> &copy;2021 | Moses Archibong Ette | Akwa Ibom | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
@@ -132,7 +139,9 @@
    
  </div>
 </footer>
-<script src="api-test-javascript/toogle9.js"></script>
-<script src="api-test-javascript/time.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="api-test-javascript/webfontload.js"></script>
+
+</body>
 
 </html>

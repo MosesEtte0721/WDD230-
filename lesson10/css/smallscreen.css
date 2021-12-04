@@ -85,14 +85,14 @@
 
   main nav{
     background-color: black;
-    /* padding: 10px; */
     margin: 0px;
   }
 
 
   main nav ul {
     padding: 0px;
-    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     list-style: none;
 
   }

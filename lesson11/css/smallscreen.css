@@ -92,12 +92,12 @@
 
 
   main nav ul {
-    padding: 5px;
-    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     list-style: none;
 
   }
-
   /* apply effects the to links in "ul" inside "nav" */
   
   nav ul li a {

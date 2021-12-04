@@ -87,13 +87,18 @@ main nav{
 }
 
 
-
+main nav ul {
+  padding:0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  list-style: none;
+}
 /* apply effects the to links in "ul" inside "nav" */
 
 nav ul li a {
   display: block;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   color: #ffea5a;
   padding: 15px;
   margin: 0px;
@@ -132,6 +137,7 @@ main nav button:first-child {    background-color: rgba(255, 231, 231, 0.938);
   justify-content: center;
   align-items: center;
   font-size: 24px;
+  padding: 5px;
 }
 
 

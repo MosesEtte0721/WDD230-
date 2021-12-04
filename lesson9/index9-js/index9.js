@@ -13,11 +13,9 @@ fetch(jLink).then(resoponse => {
         const yearFounded = document.createElement('p');
         const population = document.createElement('p');
         const rainFall = document.createElement('p');
-        const motto = document.createElement('h3');
-        const townName = document.createElement('h1');
-        // const image = document.querySelector('.city1-image');
+        const motto = document.createElement('h4');
+        const townName = document.createElement('h3');
         const image =  document.createElement('img');
-
 
         townName.textContent = `${cities[6].name}`;
         yearFounded.textContent = `Year Founded: ${cities[6].yearFounded} `;
@@ -40,8 +38,8 @@ fetch(jLink).then(resoponse => {
         const yearFounded1 = document.createElement('p');
         const population1 = document.createElement('p');
         const rainFall1 = document.createElement('p');
-        const motto1 = document.createElement('h3');
-        const townName1 = document.createElement('h1');
+        const motto1 = document.createElement('h4');
+        const townName1 = document.createElement('h3');
         const image1 = document.createElement('img')
 
         townName1.textContent = `${cities[2].name}`;
@@ -65,8 +63,8 @@ fetch(jLink).then(resoponse => {
         const yearFounded2 = document.createElement('p');
         const population2 = document.createElement('p');
         const rainFall2 = document.createElement('p');
-        const motto2 = document.createElement('h3');
-        const townName2 = document.createElement('h1');
+        const motto2 = document.createElement('h4');
+        const townName2 = document.createElement('h3');
         const image2 = document.createElement('img');
 
         townName2.textContent = `${cities[0].name}`;
@@ -82,7 +80,7 @@ fetch(jLink).then(resoponse => {
         city3.appendChild(rainFall2);
 
         image2.setAttribute('src', 'images/franklin.jpg');
-        image2.setAttribute('alt',"Franklin")
+        image2.setAttribute('alt',"Soda Springs")
         city3.appendChild(image2);
 
        

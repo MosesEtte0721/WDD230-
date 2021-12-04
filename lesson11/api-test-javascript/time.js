@@ -7,4 +7,4 @@ const cDate = dateObj.getDate();
 const cMonth = mois[dateObj.getMonth()];
 const cYear= dateObj.getFullYear();
 
-document.getElementById('esc').innerHTML = `${cDay} ${cDate} / ${cMonth} / ${cYear}`;
+document.getElementById('esc').innerHTML = `${cDay} ${cDate}, ${cMonth} ${cYear}`;

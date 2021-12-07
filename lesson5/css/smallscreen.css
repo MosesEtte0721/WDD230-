@@ -24,6 +24,9 @@ h1 {
 h2, h3 {
   font-family: "Heebo", sans-serif;
 }
+h3 {
+  font-size: 15px;
+}
 
 header {
 display: flex;

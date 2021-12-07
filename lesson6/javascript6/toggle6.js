@@ -17,14 +17,14 @@ function ToggleMenu() {
     
 
     let numTime = cTime.getDay()
-    // document.getElementById("esc").innerHTML = all;
+    document.getElementById("esc").innerHTML = all;
 
 
 
     const headDiv = document.querySelector(".head-div");
     const pElement = document.createElement('p');
     
-    pElement.innerHTML =  ` <h3> Friday = Preston pancakes in the park 9:00am. Saturday at the city park pavillon.</h3>`
+    pElement.innerHTML =  ` <h3> Saturday = Preston pancakes in the park 9:00am. Saturday at the city park pavillon.</h3>`
     headDiv.appendChild(pElement);
     headDiv.style.color ="white"
 

@@ -80,12 +80,11 @@ main nav .togglemenu {
 main .togglemenu  li {
   display: flex;
   flex: 1 1 auto;
-  padding: 10px;
   margin: 0px;
   list-style: none;
 }
 
-main .togglemenu  li:first-child {
+main nav button:first-child {
   display: none;
 }
 
@@ -150,20 +149,15 @@ footer {
 }
 
 
-.five-forcast img{
-  width: 100px;
-  height: 100px;
-}
+
 
 
 .five-forcast{
   margin: 0 auto;
   text-align: center;
-  /* width:500px; */
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-  height: 180px;
 }
 
 .five-day-weather {

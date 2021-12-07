@@ -37,10 +37,10 @@
 
   <main>
     <nav class="clearfix">
-      
+      <button onclick="ToggleMenu()" >&#9776;Menu</button>
       <ul class="togglemenu nicely" id="javascript">
-        <li class="hamburger" onclick="ToggleMenu()" >&#9776; Menu</li>
-        <li><a href="#">Home </a></li>
+        <!-- <li class="hamburger" </li> -->
+        <li class="active"><a href="preston-6.html">Home </a></li>
         <li><a href="#">Preston</a></li>
         <li><a href="#">Soda</a></li>
         <li><a href="#">Spring</a></li>
@@ -50,27 +50,26 @@
       </ul>
     </nav>
 
-  <div class="hold">  
     <div class="banner">
         <picture>
-          <source media="(min-width: 850px )" srcset="images/large-optimized.jpg">
-          <source media="(min-width: 450px)" srcset="images/medium-optimized-3d.jpg">
-          <source media="(max-width: 449px )" srcset="images/small-optimized.jpg">
-          <img src="images/wdd230_image_franklinOriginal copy.jpg" alt="Hero banner" class="image">
+          <source media="(min-width: 850px )" srcset="images/wdd230_image_franklinOriginal(large).jpeg">
+          <source media="(min-width: 450px)" srcset="images/wdd230_image_franklinOriginal(medium).jpeg">
+          <source media="(max-width: 449px )" srcset="images/wdd230_image_franklinOriginal(small).jpeg">
+          <img src="images/wdd230_image_franklinOriginal(fallback).jpeg" alt="Beautiful Garden " class="image">
         </picture>
-        </div>
+        
 
         <div class="wesummary">
             <h3>Weather Summary</h3>
 
-            <p><span class="span1">Currently:  </span><span class="span21">N/A</span></p>
-            <p><span class="span1">High:  </span><span class="span22">50</span></p>
-            <p><span class="span1">Wind Chill:  </span><span class="span23"></span></p>
+            <p><span class="span1">Currently:  </span><span class="span21"></span></p>
+            <p><span class="span1">High:  </span><span class="span22">N/A</span></p>
+            <p><span class="span1">Wind Chill:  </span><span class="span23"> °F</span></p>
             <p><span class="span1">Humidity:  </span><span class="span24">N/A</span></p>
             <p><span class="span1">Wind Speed:  </span><span class="span25">49 mph</span></p>
         </div>
-
-    </div>
+      </div>
+    
    
     <div class="five-forcast">
         <h3>5 Days Forcast</h3> 
@@ -86,13 +85,13 @@
         <div class="placeholder">
             <h3>Article</h3>
 
-               </div>
+        </div>
 
           <div class="placeholder">
             <h3>Contact Information</h3>
             <!-- <img src="image-goes-here" alt="blue image" class="alone-image"> -->
           </div>
-    </div>      
+        
   </main>
  
 

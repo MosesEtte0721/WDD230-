@@ -71,9 +71,16 @@
   display: block;
   line-height: 1px;
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   flex-wrap: nowrap;
   }
+
+  .note h3 {
+    font-size: 14px;
+  }
+ 
+
+
 
   /* Container of the site logo */
   .motto{

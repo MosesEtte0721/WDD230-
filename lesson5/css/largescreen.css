@@ -36,7 +36,7 @@ header {
 }
 
 main nav {
-  padding: 5px;
+  padding: 0px;
   margin: 0px;
 }
 
@@ -45,7 +45,7 @@ main nav .togglemenu {
   flex: 1 1 auto;
   background-color: black;
   height: 50px;
-  padding: 0px;
+ 
   margin: 0px;
   align-items: center;
 }
@@ -66,21 +66,16 @@ header img {
   list-style: none;
 }
 
-main .togglemenu  li:first-child {
+main nav  li:first-child {
   display: none;
 }
 
 .togglemenu li a {
-  padding: 5px;
   font-size: 18px;
   color: #ffea5e;
   text-decoration: none;
 }
 
-.togglemenu li a:hover {
-  color: yellow;
-  text-decoration: overline;
-}
 
 footer {
   background-color:rgb(135, 206, 235);
@@ -96,10 +91,6 @@ footer {
   width: 650px;
   height: 100px;
 }
-.hold {
-  margin: 10px;
-  padding: 10px;
-}
 
 .spand1 {
   /* text-align-last: right; */
@@ -111,24 +102,20 @@ footer {
   color: #ffea5a;
   width: 80px;
 }
-/* .wesummary {
-  width: 200px;
-  height: 160px;
-  line-height: 8px;
-  background-color: #b06bff;
-  position: absolute;
-  top: 15px;
-  left: 15px; 
+.wesummary {
+  
+  top: 60px;
+  left: 60px; 
   margin: 0px;
   padding: 5px;
-} */
+}
 
 .wesummary h3 {
   text-align: center;
 }
 
 .banner {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   position: relative;
 }
 

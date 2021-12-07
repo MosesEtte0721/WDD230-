@@ -30,7 +30,6 @@
 
    h3 {
     font-family: "Heebo", sans-serif;
-    font-size: px;
     font-style: italic;
   }
 
@@ -73,6 +72,9 @@
   margin: 0px;
   padding: 0px;
   flex-wrap: nowrap;
+  }
+  .note h3 {
+    font-size: 14px;
   }
 
   /* Container of the site logo */

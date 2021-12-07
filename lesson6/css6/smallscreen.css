@@ -1,4 +1,4 @@
- @media only screen and (min-width:357px) { */
+
 /* contains bothe the site logo, company's name, and slogan */
 body, main {
   background-color: #EFF0EE;
@@ -10,11 +10,15 @@ p {
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h2, h3 {
   font-family: "Heebo", sans-serif;
+}
+
+h3 {
+  font-size: 15px;
 }
 
 .head-div {
@@ -45,12 +49,6 @@ width: 100px;
 height: 100px;
 }
 
-.image {
-  display: flex;
-  flex: 1 1 auto;
-  width: 600px;
-  height: 200px;
-}
 
 /* container of the company's name and slogan */
 .note {
@@ -73,28 +71,35 @@ padding: 5px;
   clear: both;
 }
 
-/* main nav {
-background-color: darkcyan;
-} */
+main nav .active a {
+  background-color: rgba(0, 255, 255, 0.26);
+}
 
 /* apply effects the to links in "ul" inside "nav" */
 main nav .togglemenu a{
   text-decoration: none;
   font-size: 20px;
   color: #ffea5a;
-}
-main nav .togglemenu a:active {
-  font-size: 25px;
+  padding: 15px;
 }
 
+
+
+
+main nav {
+  background-color: black;
+}
+
+main nav ul {
+  padding: 10px;
+  margin: 0px;
+}
 /* displays the list when hitting the menu tab */
 .togglemenu li {
   display: block;
   list-style: none;
-  margin: 0 auto;
-  width: 30%;
   padding: 10px;
-  background-color: black;
+  text-align: center;
 } 
 /* hide the menu list when hitting the menu tab */
 .nicely li {
@@ -102,17 +107,20 @@ main nav .togglemenu a:active {
   } 
   
   /* displays the first list element in the ul li which is the hamburger button */
-  main .togglemenu  li:first-child {
-    display: block;
+  main nav button:first-child {
+    display: flex;
     font-size: 32px;
     background-color: #EFF0EE;
     cursor:pointer;
+    justify-content: center;
+    margin: 0 auto;
+    
+
   }
 /* provides effects when hover links in the "ul" */
  main nav .togglemenu a:hover {
   color: white;
-  text-decoration: overline;
-  
+  background-color: rgba(0, 0, 255, 0.198);  
 } 
 
 /* the footer */
@@ -135,11 +143,10 @@ footer {
   height: 40px;
   background-color: cadetblue;
   padding: 0px;
+  text-align: center;
 }
 
-.hold {
-  margin: 10px;
-}
+
 
 .spand1 {
   display: flex; 
@@ -166,17 +173,28 @@ footer {
   background-color: #b06bff;
   position: absolute;
   top: 15px;
-  left: 15px;
+  left: 30px;
+  margin: 10px;
 }
 
 .banner {
   position: relative;
-  display: none;
+  /* display: non; */
+}
+picture {
+  width: 100%;
+  margin: 0px;
+  padding: 5px;
+
+}
+
+picture img {
+  width: 100%;
 }
 
 .five-forcast img{
-  width: 100px;
-  height: auto;
+  max-width: 100%;
+  max-height: 100px;
   
 }
 
@@ -184,7 +202,6 @@ footer {
 .five-forcast{
   margin-bottom: 10px;
   text-align: center;
-  /* width:500px; */
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
@@ -207,6 +224,5 @@ img {
   transition: filter 0.5s;
 }
 
-}
 
 

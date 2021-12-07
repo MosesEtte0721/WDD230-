@@ -37,6 +37,10 @@ header {
 
 }
 
+.note h3 {
+  font-size: 25px;
+}
+
 /* logo container */
 .motto{
   margin: 5px;

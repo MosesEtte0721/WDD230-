@@ -208,7 +208,11 @@ footer p {
 .hold {
   margin: 10px;
 }
-
+legend {
+  font-size: 35px;
+  color: blue;
+  font-style: bold;
+}
 
 
 

@@ -1,4 +1,213 @@
-/* body {
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  html {
+    margin: 5px;
+  }
+  /* contains bothe the site logo, company's name, and slogan */
+  body, main {
+    background-color: #EFF0EE;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+  }
+  
+  h2, h3 {
+    font-family: "Heebo", sans-serif;
+  }
+  
+  .head-div {
+    height: 100px;
+    padding: 5px;
+    margin: 0px;
+    background-color: red;
+    text-align: center;
+  }
+  
+  
+  header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(135, 206, 235);
+  }
+  
+  .logo-slogan {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+  }
+  
+  header img {
+  margin: 2px;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .picture {
+    margin: 5px;
+    padding: 5px;
+    /* width: 100%; */
+  }
+  
+  .picture img {
+    width: 290px;
+    height: 290px;
+  }
+  
+   main nav .active a {
+    background-color:#344e28 ;
+  }
+  
+  /* container of the company's name and slogan */
+  .note {
+  display: block;
+  line-height: 1px;
+  margin: 5px;
+  padding: 5px;
+  /* margin: 0 auto; */
+  }
+  
+  /* Container of the site logo */
+  .motto{
+  margin: 5px;
+  padding: 5px;
+  }
+  
+  
+  /* main nav {
+  background-color: darkcyan;
+  } */
+  
+  /* apply effects the to links in "ul" inside "nav" */
+  
+  main nav{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    margin: 0 auto;
+  }
+  
+  
+  main nav ul {
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    list-style: none;
+  
+  }
+  
+  /* apply effects the to links in "ul" inside "nav" */
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffea5a;
+    padding: 15px;
+    margin: 0px;
+    border-top: 1px solid #EFF0EE;
+  }
+  
+  
+  
+  /* provides effects when hover links in the "ul" */
+  main nav ul li a:hover {
+    background-color: rgba(135, 195, 235, 0.5354);
+  } 
+  
+  
+  
+  
+  nav ul li {
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  } 
+  
+  /* hide the menu list when hitting the menu tab */
+  .nicely li {
+    display: none;
+    } 
+    
+  /* displays the list when hitting the menu tab */
+  main nav button:first-child { 
+    background-color: rgba(255, 231, 231, 0.938);
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding: 5px;
+  }
+  
+  .contact img {
+    width: 25px;
+    height: 25px;
+    box-shadow: 2px 3px 5px ;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .contact:hover {
+    box-shadow: 2px 3px 5px 3px;
+  }
+  
+  .contact img:hover {
+    box-shadow: none;
+  }
+  
+  .contact {
+    padding: 5px;
+    margin: 5px;
+    background-color: #ff9a6f;
+  }
+  /* the footer */
+  footer {
+    background-color: rgb(135, 206, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    flex: 1 1 auto;
+  }
+  footer p {
+    font-weight: bold;
+  
+  }
+  
+  
+  .hold {
+    margin: 10px;
+  }
+  
+  
+  
+
+
+
+body {
 
     background-color: greenyellow;
     flex: 1 1 100%;
@@ -20,6 +229,10 @@ img[data-src] {
 
 }
 
+img[data-src] {
+    transition:69s;
+}
+
 picture {
     
     display: flex;
@@ -34,4 +247,4 @@ footer #esc, p {
 
 h1 {
     text-align: center;
-} */
+}

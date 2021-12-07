@@ -10,7 +10,9 @@ form .required input, form label select, form label textarea {
     /* background-color: whitesmoke; */
     font-size: 20px;
     border-radius: 5px;
-    color: #555
+    color: #555;
+    height: 44px;
+    
 
 }
 form button {
@@ -39,6 +41,12 @@ form  .required input:required:valid {
 legend {
     font-size: 20px;
 }
+
+ label #danger input{
+    margin: 0px;
+    line-height: 2px;
+}
+
 
 
 

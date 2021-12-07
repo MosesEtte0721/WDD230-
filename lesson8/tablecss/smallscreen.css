@@ -220,12 +220,20 @@ legend {
   padding: 10px;
 }
 
+
+
 .success  {
   text-align: center;
   color: rgba(255, 0, 0, 0.596);
   margin: 10px;
   padding: 10px;
 }
+
+.required #danger input{
+  margin: 0px;
+  line-height: 2px;
+}
+
 
 
 

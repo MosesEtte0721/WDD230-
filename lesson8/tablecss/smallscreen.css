@@ -12,11 +12,14 @@ p {
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h2, h3 {
   font-family: "Heebo", sans-serif;
+}
+.note h3 {
+  font-size: 14px;
 }
 
 .head-div {
@@ -61,12 +64,13 @@ display: block;
 line-height: 1px;
 margin: 5px;
 padding: 5px;
+font-style: italic;
 /* margin: 0 auto; */
 }
 
 /* Container of the site logo */
 .motto{
-margin: 5px;
+/* margin: 5px; */
 padding: 5px;
 }
 

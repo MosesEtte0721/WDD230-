@@ -61,11 +61,11 @@ height: 100px;
 
 /* container of the company's name and slogan */
 .note {
-display: block;
-line-height: 1px;
-margin: 5px;
+
+line-height: 0.9px;
+/* margin: 5px; */
 padding: 5px;
-/* margin: 0 auto; */
+flex-wrap: wrap;
 }
 .note h3 {
   font-size: 14px;

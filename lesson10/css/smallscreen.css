@@ -52,7 +52,7 @@
   .logo-slogan {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     margin: 0;
    
   }
@@ -68,10 +68,10 @@
   /* container of the company's name and slogan */
   .note {
   display: block;
-  line-height: 1px;
+  line-height: 0.9px;
   margin: 0px;
   padding: 0px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   }
   .note h3 {
     font-size: 14px;
@@ -235,7 +235,6 @@
     flex-wrap: wrap;
     margin: 10px;
     padding: 5px;
-    margin: 0 auto;
     max-width: 30%;
     box-shadow: 3px 3px 3px 5px;
   }

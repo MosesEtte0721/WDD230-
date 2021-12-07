@@ -72,7 +72,7 @@
                 <label for="date" class="required" > Date: <input type="date" id="date"></label>
 
                 <label for="storm" class="required" > Storm Type: <input id="storm" list="mobile" name="option"></label>
-                        <label for="date" class="required" > Date: <input type="date" id="date"></label>
+                        
         
                 <datalist id="mobile"> 
                         <option value="Flash Flood"> </option>
@@ -82,10 +82,12 @@
                         <option value="Tornado"></option>
                     </datalist> 
 
-                <label for="severity" class="required" >Storm Severity: <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1" ></label>
+                    <label for="date" class="required" > Date: <input type="date" id="date"></label>
+
+                <label for="severity" class="required" >Storm Severity: <input type="range" id="severity" name="severity"  min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
                 <label for="region" class="required" > Storm Region:
-                    <select name="regionname" id="region">
-                        <option value="select-region">Select Region</option>
+                    <select name="regionname" id="region" >
+                        <option value="select-region" disabled selected>Select Region</option>
                         <option value="preston">Preston</option>
                         <option value="soda-spring">Soda Springs</option>
                         <option value="fish-haven">Fish Haven</option>

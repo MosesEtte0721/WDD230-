@@ -57,17 +57,19 @@ height: 100px;
 
 img {
   width: 100%;
+  margin: 0px;
 }
 
 .picture {
-  margin: 5px;
+  margin-bottom: 0px;
   padding: 5px;
   /* width: 100%; */
 }
 
 .picture img {
-  width: 290px;
-  height: 290px;
+  width: 350px;
+  height: 350px;
+  margin: 0px;
 }
 
  main nav .active a {
@@ -205,6 +207,15 @@ footer p {
 
 .hold {
   margin: 10px;
+}
+figcaption {
+  background-color: rgba(0, 0, 255, 0.397);
+  padding: 2px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  
+  width:350px;
+
 }
 
 

@@ -116,5 +116,8 @@ footer {
   height: 300px;
   margin: 0px;
 }
+figcaption {
+  width: 350px;
+}
 
 }

@@ -1,0 +1,19 @@
+.grid-list-views {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    max-height: 10%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+
+}
+
+.grid-view {
+    max-width: 200px;
+    cursor: pointer;
+}
+.list-view {
+    max-width:200px;
+    cursor: pointer;
+}

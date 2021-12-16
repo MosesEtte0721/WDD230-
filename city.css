@@ -1,0 +1,23 @@
+.eket {
+    text-align: left;
+    margin: 10px;
+}
+
+.history {
+    max-width: 75%;
+    box-shadow: 3px 3px 3px 3px;
+    overflow-wrap: break-word;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.demo-events-wrapper {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.events {
+    margin-left: 20px;
+}

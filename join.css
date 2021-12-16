@@ -1,0 +1,92 @@
+
+form {
+   
+
+}
+fieldset {
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.fset1 label, .fset1 input {
+    display: block;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.fset2 label, .fset2 input{
+    display: block;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+
+label[for="msub"],label[for="level1"],label[for="level2"], label[for="level3"], label[for="level4"] {
+    display: flex;
+    padding: 5px;
+    font-size: 15px;
+
+  
+}
+
+input[required]:invalid {
+    
+    border-left: 5px solid red;
+}
+input[required]:valid {
+    
+    border-left: 5px solid yellowgreen;
+}
+
+legend {
+    font-size: 20px;
+    background-color: #463252;
+    color: white;
+    text-align: center;
+}
+
+form a {
+    text-decoration: none;
+    
+}
+input[type="submit"] {
+    cursor: pointer;
+    background-color: gold;
+    color: black;
+}
+
+.form-intro {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+.membership-plan {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.join-button {
+    display: none;
+}
+
+@media only screen and (min-width:35rem) {
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .fset1 label, .fset1 input {
+        
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    
+    .fset2 label, .fset2 input{
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+}

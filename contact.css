@@ -1,0 +1,156 @@
+
+ form{
+    max-width: 300px;
+}
+
+legend {
+    text-align:center;
+    color:white;
+    background-color: #463252;
+    font-size: 18px;
+}
+
+input, label {
+    display:block;
+    border-radius:5px;
+    border: none;
+    padding: 5px;
+
+}
+
+input {
+    padding:5px;
+    font-size:15px;
+    background-color:whitesmoke
+}
+
+input:valid {
+    border-bottom: green;
+}
+
+input:invalid {
+    border-bottom: 1px solid red;
+}
+
+fieldset {
+    border-radius:5px;
+}
+input[type="button"] {
+    padding:20px;
+    font-size:20px;
+    cursor:pointer;
+    background-color:black;
+    color:gold;
+}
+
+
+
+textarea {
+    border-radius:5px;
+    padding:10px;
+    margin:0px;
+    font-size:17px;
+    display: block;
+    background-color: whitesmoke;
+
+}
+
+
+.contact-join-button {
+    display: none;
+}
+
+#map {
+    margin-top: 20px;
+    display: none;
+}
+
+main .grid {
+    margin-left: 10px;
+}
+
+@media only screen and (min-width:35rem) {
+    main .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-bottom: 40px;
+    }
+
+    form {
+        margin-top: 30px;
+        text-align: left;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    input {
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .contact-join-button {
+        display: block;
+    }
+    
+    .contact-join-button button {
+        display: block;
+        padding: 15px;
+        background-color: gold;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    .contact-join-button button a{
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+    }
+
+    #map {
+        display: grid;  
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .join-button button {
+        display: none;
+    }
+
+    .regular-contact-wrapper {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .bdirectors {
+        grid-column: 1;
+        grid-row: 2;
+    }
+} 
+
+@media only screen and (min-width:64rem) {
+    main .grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 19px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+   
+    #map {
+        margin-top: 10px;
+
+    }
+
+    div.join-button {
+        display: none;
+    }
+
+    #bdirectors {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+}
+

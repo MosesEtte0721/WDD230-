@@ -29,24 +29,24 @@
             },
         
             "com5":{
-                "Name":"",
-                "Adrress":"",
-                "Description":"",
-                "Email":""
+                "Name":"Morfrein pharmacy",
+                "Adrress":"39 Grace Bill Road, Eket",
+                "Description":"Sales and Supply of pharmaceutical products",
+                "Email":"morfon@yahoo.com"
             },
         
             "com6":{
-                "Name":"",
-                "Adrress":"",
-                "Description":"",
-                "Email":""
+                "Name":"De SaRa Bbell",
+                "Adrress":"19 Grace Bill Road, Eket",
+                "Description":"Sales of food, snacks, and beverages",
+                "Email":"info@sarabbell.com"
             },
         
             "com7":{
-                "Name":"",
-                "Adrress":"",
-                "Description":"",
-                "Email":""
+                "Name":"Redwood",
+                "Adrress":"1 Stadium Avenue, Eket",
+                "Description":"Recreation centre",
+                "Email":"null"
             }
         
         

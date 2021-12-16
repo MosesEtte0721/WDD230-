@@ -25,10 +25,11 @@ fetch("directory.json").then(res=> {
     return res.json();
 }).then(ask=> {
     console.log(ask);
-    listView.createElement('div');
-        listView.appendChild(ask);
+   let div = document.createElement('div');
+        listView.textContent = ask;
+        listView.appendChild(div);
         gridList.appendChild(listView);
-    listView.textContent = ask;
+       
 
 });
     

@@ -1,50 +1,54 @@
-{"companies" :[{
-    "com1" : { "Name" : "Fechez plaza",
-    "Address" : "24 hospital road, Eket, Akwa Ibom",
-    "Description" :"Sales of home appliences",
-    "Email"  : "fechez@gmail.com"
-    },
+
+  
     
-    "com2":{
-        "Name"  : "Kook providence Nigeria",
-        "Address" : "10 Stadium Road, Eket, Akwa Ibom",
-        "Description" : " Animal farm,Sales and supply of agro feeds, and allied services",
-        "Email" : "kooks.providence@yahoo.com"
-    },
-
-    "com3" : {
-        "Name" : "Needeck Integrated Services",
-        "Address" : "5 Akanimo street, Eket, Akwa Ibom",
-        "Description" : "Electrical and inverter installation and maintenance, and gneral contract ",
-        "Email" : "needeckintegrated@gmail.com"
-    },
-    "com4" : {
-        "Name"  : "Liahona Tailors",
-        "Adrress":"90 Afaha Uqua Road, Eket, Akwa Ibom",
-        "Description":"Fashion design, sales of adult male and female wears, designing training, and fabric sales",
-        "Email":"liahonatailors90@gmail.com"
-    },
-
-    "com5":{
-        "Name":"",
-        "Adrress":"",
-        "Description":"",
-        "Email":""
-    },
-
-    "com6":{
-        "Name":"",
-        "Adrress":"",
-        "Description":"",
-        "Email":""
-    },
-
-    "com7":{
-        "Name":"",
-        "Adrress":"",
-        "Description":"",
-        "Email":""
-    }
-}
-]
-}
+     [ {
+        "com1" : { "Name" : "Fechez plaza",
+            "Address" : "24 hospital road, Eket, Akwa Ibom",
+            "Description" :"Sales of home appliences",
+            "Email"  : "fechez@gmail.com"
+            },
+            
+            "com2":{
+                "Name"  : "Kook providence Nigeria",
+                "Address" : "10 Stadium Road, Eket, Akwa Ibom",
+                "Description" : " Animal farm,Sales and supply of agro feeds, and allied services",
+                "Email" : "kooks.providence@yahoo.com"
+            },
+        
+            "com3" : {
+                "Name" : "Needeck Integrated Services",
+                "Address" : "5 Akanimo street, Eket, Akwa Ibom",
+                "Description" : "Electrical and inverter installation and maintenance, and gneral contract ",
+                "Email" : "needeckintegrated@gmail.com"
+            },
+            "com4" : {
+                "Name"  : "Liahona Tailors",
+                "Adrress":"90 Afaha Uqua Road, Eket, Akwa Ibom",
+                "Description":"Fashion design, sales of adult male and female wears, designing training, and fabric sales",
+                "Email":"liahonatailors90@gmail.com"
+            },
+        
+            "com5":{
+                "Name":"",
+                "Adrress":"",
+                "Description":"",
+                "Email":""
+            },
+        
+            "com6":{
+                "Name":"",
+                "Adrress":"",
+                "Description":"",
+                "Email":""
+            },
+        
+            "com7":{
+                "Name":"",
+                "Adrress":"",
+                "Description":"",
+                "Email":""
+            }
+        
+        
+     }]
+    

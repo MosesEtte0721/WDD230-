@@ -21,7 +21,7 @@ const listView = document.querySelector('.list-view');
 // const js = fetch("directory.json");
 // console.log(js);
 
-fetch("./directory.json").then(res=> {
+fetch("directory.json").then(res=> {
     return res.json();
 }).then(ask=> {
     console.log(ask);

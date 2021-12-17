@@ -1,8 +1,7 @@
 .grid-list-views {
-    display: flex;
-    justify-content: space-around;
-    max-width: 50%;
-    max-height: 10%;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(100px, 1fr) );
+    
     margin: 0 auto;
     background-color: black;
     color: white;

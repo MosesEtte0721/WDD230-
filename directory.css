@@ -3,13 +3,12 @@ div.grid-list-views {
     grid-template-columns: repeat(autofit, minmax(100px, 1fr) );
     background-color: black;
     color: white;
-    object-fit: cover;
-    column-gap: 20px;
-    margin:10px;
+    
 }
 
 
 div img {
+    margin:10px;
     max-width: 200px;
     max-width: 200px;
 }

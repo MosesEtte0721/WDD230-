@@ -1,7 +1,7 @@
 
   
     
-      {
+    [  {
         "com1" : { "name" : "Fechez plaza",
             "address" : "24 hospital road, Eket, Akwa Ibom",
             "description" :"Sales of home appliences",
@@ -49,7 +49,6 @@
                 "email":"null"
             }
         }
-        
-        
+    ]
      
     

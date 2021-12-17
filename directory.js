@@ -1,6 +1,6 @@
-const gridList = document.querySelector('.grid-comapany-views');
+const gridList = document.querySelector('.grid-list-views');
 const gridView = document.querySelector('.grid-view');
-const listView = document.querySelector('.comapany-view');
+const listView = document.querySelector('.list-view');
 
 // const loadJson = loadJson("directory.json");
 
@@ -26,7 +26,8 @@ fetch("directory.json").then(res=> {
 }).then(ask=> {
     console.log(ask);
     let list = ask["companies"]
-   list.forEach(comapany => {
+
+   list.forEach(list => {
     let gridList = document.querySelector('.grid-list-views');
     let section = document.createElement('section');
     let name = document.createElement('p');
@@ -34,10 +35,10 @@ fetch("directory.json").then(res=> {
     let desc = document.createElement('p');
     let email = document.createElement('p');
 
-    name.textContent = `Name: ${comapany.name}`;
-    address.textContent = `Address: ${comapany.address}`;
-    desc.textContent = `Description: ${comapany.description}`;
-    email.textContent = `Email: ${comapany.email}`;
+    name.textContent = `Name: ${list.name}`;
+    address.textContent = `Address: ${list.address}`;
+    desc.textContent = `Description: ${list.description}`;
+    email.textContent = `Email: ${list.email}`;
 
     section.appendChild(name);
     section.appendChild(address);

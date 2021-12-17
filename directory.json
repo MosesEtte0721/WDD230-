@@ -1,44 +1,56 @@
 
   
     
-    [  {
-         "name" : "Fechez plaza",
+    [ 
+        
+            {   "name" : "Fechez plaza",
             "address" : "24 hospital road, Eket, Akwa Ibom",
             "description" :"Sales of home appliences",
-            "email"  : "fechez@gmail.com",
+            "email"  : "fechez@gmail.com"
+            },
             
-           
+            {
                 "name"  : "Kook providence Nigeria",
                 "address" : "10 Stadium Road, Eket, Akwa Ibom",
                 "description" : " Animal farm,Sales and supply of agro feeds, and allied services",
-                "email" : "kooks.providence@yahoo.com",
-        
+                "email" : "kooks.providence@yahoo.com"
+            },
+            {
                 "name" : "Needeck Integrated Services",
                 "address" : "5 Akanimo street, Eket, Akwa Ibom",
                 "description" : "Electrical and inverter installation and maintenance, and gneral contract ",
-                "email" : "needeckintegrated@gmail.com",
-
+                "email" : "needeckintegrated@gmail.com"
+            },
+            {
                 "name"  : "Liahona Tailors",
                 "adrress":"90 Afaha Uqua Road, Eket, Akwa Ibom",
                 "description":"Fashion design, sales of adult male and female wears, designing training, and fabric sales",
-                "email":"liahonatailors90@gmail.com",
+                "email":"liahonatailors90@gmail.com"
+            },
         
+            {
                 "name":"Morfrein pharmacy",
                 "adrress":"39 Grace Bill Road, Eket",
                 "description":"Sales and Supply of pharmaceutical products",
-                "email":"morfon@yahoo.com",
+                "email":"morfon@yahoo.com"
+            },
         
+            {
                 "name":"De SaRa Bbell",
                 "adrress":"19 Grace Bill Road, Eket",
                 "description":"Sales of food, snacks, and beverages",
-                "email":"info@sarabbell.com",
+                "email":"info@sarabbell.com"
+            },
         
+            {
                 "name":"Redwood",
                 "adrress":"1 Stadium Avenue, Eket",
                 "description":"Recreation centre",
                 "email":"null"
-            
-        }
-    ]
+            }
+        
+         
+         
+        ]
      
     

@@ -25,7 +25,8 @@ fetch("directory.json").then(res=> {
     return res.json();
 }).then(ask=> {
     console.log(ask);
-   ask.forEach(element => {
+    let list = ask["companies"]
+   ask.forEach(companies => {
     let gridList = document.querySelector('.grid-list-views');
     let section = document.createElement('section');
     let name = document.createElement('p');
@@ -33,16 +34,20 @@ fetch("directory.json").then(res=> {
     let desc = document.createElement('p');
     let email = document.createElement('p');
 
-    name.textContent = `Name: ${element.com1.name}`;
-    address.textContent = `Address: ${element.com1.address}`;
-    desc.textContent = `Description: ${element.com1.desc}`;
-    email.textContent = `Email: ${element.com1.email}`;
+    name.textContent = `Name: ${companies.com1.name}`;
+    address.textContent = `Address: ${companies.com1.address}`;
+    desc.textContent = `Description: ${companies.com1.description}`;
+    email.textContent = `Email: ${companies.com1.email}`;
 
     section.appendChild(name);
     section.appendChild(address);
     section.appendChild(desc);
     section.appendChild(email);
     gridList.appendChild(section);
+
+
+
+
 
    }); 
        

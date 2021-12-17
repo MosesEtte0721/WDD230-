@@ -43,10 +43,6 @@ fetch("directory.json").then(res=> {
     section.appendChild(email);
     gridList.appendChild(section);
 
-    // listView.textContent = element.com1.Address;
-    // console.log(listView.textContent = element)
-    // listView.appendChild(div);
-    // gridList.appendChild(listView);
    }); 
        
 

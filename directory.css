@@ -4,10 +4,9 @@
     background-color: black;
     color: white;
     object-fit: cover;
-    gap: 40px;
-
+    column-gap: 20px;
+    margin:10px;
 }
-
 
 
 img {

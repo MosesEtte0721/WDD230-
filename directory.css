@@ -1,4 +1,4 @@
-.grid-list-views {
+div.grid-list-views {
     display: grid;
     grid-template-columns: repeat(autofit, minmax(100px, 1fr) );
     background-color: black;

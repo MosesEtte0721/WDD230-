@@ -28,7 +28,7 @@ fetch("directory.json").then(res=> {
    ask.forEach(element => {
     let div = document.createElement('p');
     listView.textContent = element.com1.Address;
-    console.log(listView.textContent = element.com1.Address)
+    console.log(listView.textContent = element)
     listView.appendChild(div);
     gridList.appendChild(listView);
    }); 

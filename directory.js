@@ -33,10 +33,10 @@ fetch("directory.json").then(res=> {
     let desc = document.createElement('p');
     let email = document.createElement('p');
 
-    name.textContent = `Name: ${element[0].com1.name}`;
-    address.textContent = `Address: ${element[0].com1.address}`;
-    desc.textContent = `Description: ${element[0].com1.desc}`;
-    email.textContent = `Email: ${element[0].com1.email}`;
+    name.textContent = `Name: ${element.com1.name}`;
+    address.textContent = `Address: ${element.com1.address}`;
+    desc.textContent = `Description: ${element.com1.desc}`;
+    email.textContent = `Email: ${element.com1.email}`;
 
     section.appendChild(name);
     section.appendChild(address);

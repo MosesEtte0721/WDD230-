@@ -42,6 +42,6 @@ fetch("directory.json").then(res=> {
 
 });
 
-    function block(this) {
+    function block() {
         gridList.style.display = "block";
-    }
+    };

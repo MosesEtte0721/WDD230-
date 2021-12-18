@@ -1,9 +1,9 @@
 div.grid-list-views {
-    /* display: grid;
-    grid-template-columns: repeat(autofit, minmax(100px, 1fr) );
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr) );
     grid-template-rows: 1fr 1fr;
     background-color: black;
-    color: white; */
+    color: white;
     
 }
 

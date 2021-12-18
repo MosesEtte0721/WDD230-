@@ -43,9 +43,14 @@ fetch("directory.json").then(res=> {
 });
 
 
-    function block() {
+    function blockView() {
         
         gridList.style.display = "block";
     };
 
-    listView.addEventListener("click",block);
+    function gridView() {
+        gridList.style.display = "grid";
+    }
+
+    listView.addEventListener("click",blockView);
+    gridView.addEventListener("click", gridView);

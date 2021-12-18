@@ -20,7 +20,7 @@ section img {
    
 }
 
-.all-views {
+.all-views-wrapper {
     display: flex;
     flex-direction: row;
     max-width: 50%;
@@ -37,7 +37,7 @@ section img {
     max-height: 12%;
     cursor: pointer;
 }
-.list-view button{
+.list-view {
     max-width: 22%;
     max-height: 12%;
     border: none;

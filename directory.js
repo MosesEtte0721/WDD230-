@@ -1,6 +1,6 @@
 const gridList = document.querySelector('.grid-list-views');
 const gridView = document.querySelector('.grid-view');
-const listView = document.querySelector('.list-view');
+
 
 
 fetch("directory.json").then(res=> {
@@ -43,5 +43,6 @@ fetch("directory.json").then(res=> {
 });
 
     function block() {
+        const listView = document.querySelector('.list-view');
         listView.style.display = "block";
     };

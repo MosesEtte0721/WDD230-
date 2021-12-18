@@ -1,5 +1,5 @@
 const gridList = document.querySelector('.grid-list-views');
-const gridView = document.querySelector('.grid-view');
+const gridViews = document.querySelector('.grid-view');
 const listView = document.querySelector('.list-view button');
 
 
@@ -53,4 +53,4 @@ fetch("directory.json").then(res=> {
     }
 
     listView.addEventListener("click",blockView);
-    gridView.addEventListener("click", gridView);
+    gridViews.addEventListener("click", gridView);

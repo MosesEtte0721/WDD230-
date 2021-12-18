@@ -45,7 +45,7 @@ fetch("directory.json").then(res=> {
 
     function block() {
         
-        document.style.display = "block";
+        gridList.style.display = "block";
     };
 
     listView.addEventListener("click",block);

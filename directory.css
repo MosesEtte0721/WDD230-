@@ -6,6 +6,11 @@ div.grid-list-views {
     color: white;
     
 }
+section {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
 
 
 div img {

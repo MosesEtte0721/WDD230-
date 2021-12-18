@@ -22,6 +22,7 @@ section img {
 
 .all-views-wrapper {
     display: flex;
+    flex: 1 1 100%;
     flex-direction: row;
     max-width: 50%;
     max-height: 30%;
@@ -33,11 +34,16 @@ section img {
 }
 
 .grid-view {
+    margin: 5px;
+    padding: 10px;
     max-width: 22%;
     max-height: 12%;
     cursor: pointer;
+    border: none;
 }
 .list-view {
+    margin: 5px;
+    padding: 10px;
     max-width: 22%;
     max-height: 12%;
     border: none;

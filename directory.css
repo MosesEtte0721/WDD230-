@@ -2,18 +2,19 @@ div.grid-list-views {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr) );
     grid-template-rows: 1fr 1fr;
-    background-color: black;
-    color: white;
     
 }
 section {
-    /* display: flex;
-    flex-direction: column;
-    flex: 1 1 100%; */
+    
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px;
+    margin: 10px;
+   
 }
 
 
 section img {
-    max-width: 8%;
+    max-width: 80%;
+    padding:10px;
    
 }

@@ -7,14 +7,13 @@ div.grid-list-views {
     
 }
 section {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    flex: 1 1 100%;
+    flex: 1 1 100%; */
 }
 
 
 section img {
-    margin:10px;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 8%;
+   
 }

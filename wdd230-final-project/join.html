@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="membership registration form">
+    <meta name="author" content="Moses Ette" >
+    <title>Join c-commerce</title>
+
+    <link rel="shortcut icon" href="images/flower-logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css-join/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alike&family=Arimo:wght@500&family=EB+Garamond&family=Heebo:wght@400;500&family=Hind+Madurai:wght@500&family=Hind:wght@500&family=Lustria&family=Merriweather+Sans:wght@300&family=Nunito+Sans:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css-join/join.css">
+    <link rel="stylesheet" href="css-join/index.css">
+    <link rel="stylesheet" href="css-join/medium.css">
+    <link rel="stylesheet" href="css-join/large.css">
+    <script src="js-join/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/flower-logo.png" alt="logo">
+        </div>
+
+        <div class="site-name">
+            <h1>C-Commerce</h1>
+            
+        </div>
+
+        <div class="header-social-network"> 
+            <img src="images/Facebook_Logo.png" alt="Facebook">
+            <img src="images/instagram_logo.jpg" alt="Instagram">
+            <img src="images/Linkedin-logo-1-550x550-300x300 (1).png" alt="Linkedin">
+        </div>
+        <button onclick="Toggle()" >&#9776;</button>
+    </header>
+    <main>
+
+        <div class="nav-wrapper">
+            <nav class="clearfix">
+                <ul class="toggle menu" id="hamburger">
+                    <li ><a href="index.html">Home</a></li>
+                    <li class="active"><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="city.html">City</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                    <div class="social-network">
+                        <p><h3>Connect with us</h3></p>
+                        <img src="images/Facebook_Logo.png" alt="Facebook">
+                        <img src="images/instagram_logo.jpg" alt="Instagram">
+                        <img src="images/Linkedin-logo-1-550x550-300x300 (1).png" alt="Linkedin">
+                    </div>
+                </ul>
+                
+            </nav>
+
+
+        <div class="banner">
+            <picture>
+                <source media="(min-width: 64rem)" srcset="images/expanding-sm-business193kb.jpg">
+                <source media="(min-width: 34rem)" srcset="images/expanding-sm-business123kb.jpg">
+                <source media="(max-width: 33.99)" srcset="images/expanding-sm-business57kb.jpg">
+                <img src="images/expanding-sm-business.jpg" alt="Connecting small business">
+            </picture>
+        </div>
+
+        <div class="join-button">
+            <button type="button"><a href="join.html">Join Community</a></button>
+        </div>
+        
+
+
+    <form action="thankyou.html" method="get" >
+        <div class="form-intro">
+           <h3>C-commerce Membership  Form </h3>
+        </div>
+        <fieldset class="fset1">
+            <legend>Personal Information</legend>
+            <label for="name">First name:<input type="text" id="name" name="fname" pattern="[A-z]{3,30}"  placeholder="First name" title="must be from 3 to 30 characters" required></label>
+            <label for="surname">Last name: <input type="text" id="surname" name="lname" minlength="3" maxlength="30" title="must be from 3 to 30 characters" placeholder="Last name" required></label>
+            <label for="titre">Title: <input type="text" id="titre" name="title" ></label>
+            <label for="mail">Email: <input type="email" id="mail" name="email" placeholder="ee@mail.com" required></label>
+        </fieldset>
+        <fieldset class="fset2">
+            <legend>Business Information</legend>
+            <label for="bname">Business name: <input type="text" pattern="[A-z]{3,30}" title="must be above three characters" id="bname" name="business-name" placeholder="business-name" required></label>
+
+            <label for="baddress">Business address: <input type="text" id="baddress" name="business-address" required></label>
+
+            <label for="bwebsite">Business website: <input type="url" id="bwebsite" name="business-website" placeholder="optional"></label>
+
+            <label for="bdesc">Business description: <input type="text" pattern="[A-z]{10,250}" title="must be between 10 and 250 characters" id="bdesc" name="business-describtion"></label>
+                <div class="membership-plan">
+                    <p>Membership Plan</p>
+                </div>
+            <label for="msub">Non-profit ($100) <input type="radio" id="msub" name="membership" value="$100"></label>
+
+            <label for="level2">Bronze ($200) <input type="radio" id="level2" name="membership" value="$200"></label>
+            
+            <label for="level3">Silver ($400) <input type="radio" id="level3" name="membership" value="$400"></label>
+
+            <label for="level4">Gold ($1000) <input type="radio"  id="level4" name="membership" value="$1000" ></label>
+             <label for="butt"><input type="submit" value="Send Application">  </label>
+        </fieldset>
+    </form>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="images/flower-logo.png" alt="Logo">
+        </div>
+            
+        <div class="social-network">
+            <img src="images/Facebook_Logo.png" alt="Facebook">
+            <img src="images/instagram_logo.jpg" alt="Instagram">
+            <img src="images/Linkedin-logo-1-550x550-300x300 (1).png" alt="Linkedin">
+        </div>
+
+        <div class="spans">
+            <p><span>&#9993; Email: senatoette@gmail.com </span></p>
+            <p><span>&phone; Phone: 08121715103</span></p>
+        </div>
+        <div class="copy">
+            <p> &copy;2021 | Moses Archibong Ette | Akwa Ibom | Nigeria</p>
+            <span id="esc">Last Updated:</span>
+        </div>
+    </footer>
+    
+</body>
+</html>

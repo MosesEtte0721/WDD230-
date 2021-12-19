@@ -1,0 +1,49 @@
+
+.all-views-wrapper {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    margin: 0 auto;
+    background: color #14A8A4;
+    color: black;
+    margin-bottom: 5px;
+
+}
+
+.grid-view {
+    max-width: 200px;
+    cursor: pointer;
+
+}
+.list-view {
+    max-width:200px;
+    cursor: pointer;
+
+}
+
+section {
+    
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px;
+    margin: 10px;
+    overflow-wrap: break-word;
+   
+}
+
+
+section img {
+    max-width: 80%;
+    padding:10px;
+   
+}
+
+
+.enterprises {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.all-views-wrapper button {
+    padding-left: 30px;
+    padding-right: 30px;
+}

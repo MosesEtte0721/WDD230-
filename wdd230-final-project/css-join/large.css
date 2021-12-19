@@ -1,0 +1,116 @@
+@media only screen and (min-width: 64rem) {
+   
+   
+    h1 {
+        font-size: 35px;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 100%;
+        padding: 0px;
+        margin: 0px;
+       
+    }
+    
+    header {
+        position: static;
+    }
+    
+    header .site-name {
+        margin-left: 20px;
+        align-self: center;
+        justify-self: start;
+        grid-column: 2/2;
+        line-height: 10px;
+        column-gap: 0px;
+    }
+    
+      
+        header button {
+            display: none;
+        }
+    
+        .join-button-purpose{
+            display: none;
+        }
+       
+        main nav .menu {
+            display: flex;
+        }
+    
+        main {
+            margin-top: 0px;
+        }
+        
+        main nav {
+            position: sticky;
+            top: 0px;
+            left: 0px;
+        }
+        main nav ul {
+            position: static;
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            padding: 0px;
+            background-color: #463252;
+            border-top: 2px solid gold;
+           
+        }
+        
+    
+        main nav ul li {
+            margin:0px;
+            padding: 15px;
+        }
+        
+        main nav ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+        }
+        
+        main nav ul li:hover  {
+           border: none;
+        }
+        
+        
+        main nav ul li a:hover { 
+            color: yellow;
+        }
+        
+        main nav .social-network {
+            display: none;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-top: 30px;
+        
+        
+        }
+        
+        
+       
+        .header-social-network img{ 
+            width: 30px;
+            height: 30px;
+            margin: 10px;
+        }
+        
+        .header-social-network {
+            display: flex;
+            align-self: end;
+            justify-self: center;
+            grid-column: 3/3;
+        }
+    
+        
+        footer .spans {
+            column-gap: 50px;
+            flex-direction: row;
+            justify-self: center;
+        }
+        
+    }

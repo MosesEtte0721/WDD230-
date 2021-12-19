@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form, map, phone number, physical address, and email address of the organization">
+    <link rel="shortcut icon" href="images/flower-logo.ico" type="image/x-icon">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css-contact/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alike&family=Arimo:wght@500&family=EB+Garamond&family=Heebo:wght@400;500&family=Hind+Madurai:wght@500&family=Hind:wght@500&family=Lustria&family=Merriweather+Sans:wght@300&family=Nunito+Sans:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css-contact/contact.css">
+    <link rel="stylesheet" href="css-contact/index.css">
+    <link rel="stylesheet" href="css-contact/medium.css">
+    <link rel="stylesheet" href="css-contact/large.css">
+ 
+    <script src="js-contact/contact.js" defer></script>
+    
+
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/flower-logo.png" alt="logo">
+        </div>
+
+        <div class="site-name">
+            <h1>C-Commerce</h1>
+            
+        </div>
+
+        <div class="header-social-network"> 
+            <img src="images/Facebook_Logo.png" alt="Facebook">
+            <img src="images/instagram_logo.jpg" alt="Instagram">
+            <img src="images/Linkedin-logo-1-550x550-300x300 (1).png" alt="Linkedin">
+        </div>
+    <!-- </div> -->
+        <button onclick="Toggle()" >&#9776;</button>
+    
+    </header>   
+    <main>
+
+            <nav class="clearfix">
+                <ul class="toggle menu" id="hamburger">
+                    <li ><a href="index.html">Home</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="city.html">City</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                    
+                    <div class="social-network">
+                        <h3>Connect with us</h3>
+                        <img src="images/Facebook_Logo.png" alt="Facebook">
+                        <img src="images/instagram_logo.jpg" alt="Instagram">
+                        <img src="images/Linkedin-logo-1-550x550-300x300 (1).png" alt="Linkedin">
+                    </div>
+                </ul>
+                
+            </nav>
+        
+        <div class="banner">
+            <picture>
+                <source media="(min-width: 64rem)" srcset="images/expanding-sm-business193kb.jpg">
+                <source media="(min-width: 34rem)" srcset="images/expanding-sm-business123kb.jpg">
+                <source media="(max-width: 33.99)" srcset="images/expanding-sm-business57kb.jpg">
+                <img src="images/expanding-sm-business.jpg" alt="Connecting small business">
+            </picture>        </div>
+            <div class="grid">
+                    <div class="join-button">
+                        <button type="button"><a href="join.html">Join Community</a></button>
+                    </div>
+
+                    <div class="regular-contact-wrapper">
+                        
+                        <div class="contact-join-button">
+                            <button type="button"><a href="join.html">Join Community</a></button>
+                        </div>
+                        <div class="contact">
+                            <p>Address: 14 Clinic Road, Eket, Akwa Ibom, Nigeria</p>
+                            <p>&phone; +2348121715103</p>
+                            <p>&telrec; +2348105045871</p>
+                            <p>&#9993; senatoette@gmail.com</p>
+                            <p>&#9993; senatoette@yahoo.com</p>
+                            <p>WhatsApp: +2348121715103</p>
+                        </div>
+                        
+                    </div>
+
+                        <div id="map"><div class="mapouter"><div class="gmap_canvas"><iframe max-width="430" height="296" id="gmap_canvas" src="https://maps.google.com/maps?q=%2014%20Clinic%20Road,%20Eket&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div></div>
+
+
+                    <div class="bdirectors">
+                        <h2>Board of Directors</h2>
+                        <p>Moses Ette: CEO</p>
+                        <p>Nsikan Ekwere</p>
+                        <p>Umakiso Ebong</p>
+                        <p>Udo Ettete</p>
+                    </div>
+                    <!-- <div class="contact-form"> -->
+                        <form action="#" method="get">
+                            <fieldset>
+                                <legend>Message</legend>
+                            <label for="name">Name: <input type="text" name="user name" id="name"  pattern="[A-z]{3,}" title="must be above three character" required></label>
+                            <label for="mail">Email: <input type="email" name="email" id="mail" required></label>
+                            <label for="digit">Phone: <input type="tel" pattern="[0-9]{7,15}" title="must be number and between 7 to 15 digits" name="phone" id="digit"></label>
+                            <label for="plustext">Message: <textarea name="textarea" id="plustext" cols="20" rows="5"></textarea></label>
+                            <label for="but"><input type="button" value="Send message"></label>
+                            </fieldset>
+                        </form>
+                    <!-- </div> -->
+                
+            </div>
+                
+        </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="images/flower-logo.png" alt="Logo">
+        </div>
+            
+        <div class="social-network">
+            <img src="images/Facebook_Logo.png" alt="Facebook">
+            <img src="images/instagram_logo.jpg" alt="Instagram">
+            <img src="images/Linkedin-logo-1-550x550-300x300 (1).png" alt="Linkedin">
+        </div>
+
+        <div class="spans">
+            <div class="spans">
+                <p><span>&#9993; Email: senatoette@gmail.com </span></p>
+                <p><span>&phone; Phone: 08121715103</span></p>
+            </div>
+        </div>
+        <div class="copy">
+            <p> &copy;2021 | Moses Archibong Ette | Akwa Ibom | Nigeria</p>
+            <span id="esc">Last Updated:</span>
+        </div>
+    </footer> 
+</body>
+</html>

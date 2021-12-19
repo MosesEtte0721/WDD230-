@@ -1,0 +1,76 @@
+@media only screen and (min-width: 34rem) {
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+        grid-template-rows: 100px;
+        position: fixed;
+        height: 100px;
+        margin: 0px;
+        
+    }
+
+    header .logo img{
+        width: 100%;
+        height:100%;
+    }
+    
+    header .logo {
+        justify-self: end;
+        overflow: hidden;
+    }
+
+    .banner img {
+        max-width: 100%;
+    }
+    
+    main .banner {
+        margin-top: 0px;
+    }
+    
+    main nav ul {
+        top: 100px;
+    }
+
+    .join-button {
+        display: none;
+    }
+
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .fset1 label, .fset1 input {
+        
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    
+    .fset2 label, .fset2 input{
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+
+    footer .social-network {
+        display: flex;
+        grid-column: 4/4;
+        grid-row: 2/2;
+        justify-self: start;
+        align-self: end;
+    }
+    
+    footer .social-network img {
+        margin-left: 10px;
+    }
+    
+    footer .spans {
+        column-gap: 40px;
+        flex-direction: row;
+        justify-self: center;
+    }
+
+}

@@ -32,7 +32,7 @@ fetch("json-directory/directory.json").then(res=> {
     return res.json();
 }).then(ask=> {
     console.log(ask);
-    let list = ask["companies"]
+    let list = ask["companies"];
 
    list.forEach(list => {
     let gridList = document.querySelector('.grid-list-views');

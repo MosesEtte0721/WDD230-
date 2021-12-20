@@ -6,12 +6,11 @@
             {   "name" : "Fechez plaza",
             "address" : "24 hospital road, Eket, Akwa Ibom",
             "description" :"Sales of home appliences",
-            "email"  : "fechez@gmail.com",
-            "image" : "null"
+            "email"  : "fechez@gmail.com"
             },
             
             {
-                "name"  : "Kook providence Nigeria",
+                "name"  : "Kooks Providence Nigeria",
                 "address" : "10 Stadium Road, Eket, Akwa Ibom",
                 "description" : " Animal farm,Sales and supply of agro feeds, and allied services",
                 "email" : "kooks.providence@yahoo.com",
@@ -34,7 +33,7 @@
         
             {
                 "name":"Morfrein pharmacy",
-                "adrress":"39 Grace Bill Road, Eket",
+                "adrress":"39 Grace Bill Road, Eket, Akwa Ibom",
                 "description":"Sales and Supply of pharmaceutical products",
                 "email":"morfon@yahoo.com",
                 "image":"images/pharmacy74kb.jpg"
@@ -42,7 +41,7 @@
         
             {
                 "name":"De SaRa Bbell",
-                "adrress":"19 Grace Bill Road, Eket",
+                "adrress":"19 Grace Bill Road, Eket, Akwa Ibom",
                 "description":"Sales of food, snacks, and beverages",
                 "email":"info@sarabbell.com",
                 "image":"images/desarabbel84kb.jpg"
@@ -50,9 +49,9 @@
         
             {
                 "name":"Redwood",
-                "adrress":"1 Stadium Avenue, Eket",
+                "adrress":"1 Stadium Avenue, Eket, Akwa Ibom",
                 "description":"Recreation centre",
-                "email":"null",
+                "email":"redwood@gmail.com",
                 "image":"images/redwood133kb.jpg"
             }
         

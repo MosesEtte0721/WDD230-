@@ -226,6 +226,9 @@ textarea {
 #map {
     margin-top: 20px;
     display: none;
+    margin-right: 0px;
+    overflow:hidden;
+    
 }
 
 .bdirectors {

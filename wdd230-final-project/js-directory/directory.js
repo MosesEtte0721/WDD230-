@@ -78,8 +78,9 @@ fetch("json-directory/directory.json").then(res=> {
         gridList.style.display = "grid";
     }
 
-    listView.addEventListener("click",blockView);
     gridViews.addEventListener("click", gridView);
+    listView.addEventListener("click",blockView);
+    
 
 
 

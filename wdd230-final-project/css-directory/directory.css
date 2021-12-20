@@ -50,4 +50,6 @@ section img {
     grid-template-rows: 1fr 1fr;
     
 }  
-    
+.enterprise-name {
+    text-align: center;
+}

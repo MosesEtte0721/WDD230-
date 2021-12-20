@@ -40,7 +40,6 @@
     </header>
     <main>
 
-        <div class="nav-wrapper">
             <nav class="clearfix">
                 <ul class="toggle menu" id="hamburger">
                     <li ><a href="index.html">Home</a></li>
@@ -49,12 +48,6 @@
                     <li><a href="city.html">City</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     
-                    <div class="social-network">
-                        <p><h3>Connect with us</h3></p>
-                        <img src="images/Facebook_Logo.png" alt="Facebook">
-                        <img src="images/instagram_logo.jpg" alt="Instagram">
-                        <img src="images/Linkedin-logo-1-550x550-300x300.png" alt="Linkedin">
-                    </div>
                 </ul>
                 
             </nav>
@@ -64,18 +57,16 @@
             <picture>
                 <source media="(min-width: 64rem)" srcset="images/expanding-sm-business193kb.jpg">
                 <source media="(min-width: 34rem)" srcset="images/expanding-sm-business123kb.jpg">
-                <source media="(max-width: 33.99)" srcset="images/expanding-sm-business57kb.jpg">
+                <source media="(max-width: 33.99rem)" srcset="images/expanding-sm-business57kb.jpg">
                 <img src="images/placeholder.png" alt="Connecting small business" data-src="images/expanding-sm-business.jpg">
             </picture>
         </div>
 
         <div class="join-button">
-            <button type="button"><a href="join.html">Join Community</a></button>
+            <a href="join.html">Join Community</a>
         </div>
-        
-
-
-    <form action="thankyou.html" method="get" >
+  
+        <form action="thankyou.html" method="get" >
         <div class="form-intro">
            <h3>C-commerce Membership  Form </h3>
         </div>
@@ -105,7 +96,7 @@
             <label for="level3">Silver ($400) <input type="radio" id="level3" name="membership" value="$400"></label>
 
             <label for="level4">Gold ($1000) <input type="radio"  id="level4" name="membership" value="$1000" ></label>
-             <label for="butt"><input type="submit" value="Send Application">  </label>
+             <label for="butt"><input type="submit" id="butt" value="Send Application">  </label>
         </fieldset>
     </form>
     </main>

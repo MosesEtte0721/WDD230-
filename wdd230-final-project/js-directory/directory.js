@@ -67,15 +67,49 @@ fetch("json-directory/directory.json").then(res=> {
 
 });
 
-
+// block view function
     function blockView() {
         
         gridList.style.display = "block";
     };
 
+    // grid view function
     function gridView() {
         gridList.style.display = "grid";
     }
 
     listView.addEventListener("click",blockView);
     gridViews.addEventListener("click", gridView);
+
+
+
+    // swapping data-src attribute with src  attribute
+let images = document.querySelectorAll('img[data-src]');
+function observa() {
+    images.setAttribute('src', image.getAttribute('data-src'));
+
+    // remove data-src attribute when the page is loaded
+    images.onload = () => {
+    images.removeAttribute('data-src')
+    }
+}
+
+// observe images
+if ("IntersectionObserver" in window) {
+    let observer = new IntersectionObserver((item, observer)=> {
+        item.forEach(items=> {
+            if (items.isIntersecting){
+                observa(items.target);
+                observer.unobserve(items.target)
+            }
+        })
+    })
+    images.forEach((image)=> {
+        observer.observe(image);
+    }) 
+}
+else{
+    images.forEach(element => {
+        observa(element)
+    })
+}

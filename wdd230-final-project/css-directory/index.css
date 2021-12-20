@@ -161,12 +161,12 @@ main .banner {
 }
 
 
-.join-button {
+.join-button a{
     cursor: pointer;
     width: 200px;
     height: 50px;
     padding: 10px;
-    margin: 5px;
+    text-decoration: none;
     border: none;
     border-radius: 5px;
     background-color: gold;
@@ -174,15 +174,10 @@ main .banner {
 
 }
 
-/* .join-button button a {
-    text-decoration: none;
-    
-    padding: 10px;
-    color: black;
-    font-family: "Arimo","Nunito","Roboto","Hind",sans-serif;
+.join-button {
+    margin-top: 15px;
+}
 
-   
-} */
 
 main nav .active {
     background-color: #14a8a4;

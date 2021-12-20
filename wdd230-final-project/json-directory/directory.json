@@ -3,10 +3,11 @@
     
  {  "companies":[ 
         
-            {   "name" : "Fechez plaza",
+            { "name" : "Fechez plaza",
             "address" : "24 hospital road, Eket, Akwa Ibom",
             "description" :"Sales of home appliences",
-            "email"  : "fechez@gmail.com"
+            "email"  : "fechez@gmail.com",
+            "image" : "images/placeholder.png"
             },
             
             {

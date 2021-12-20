@@ -24,7 +24,7 @@ ref.innerHTML = `Last Updated: ${date} ${month},  ${year}`;
 
 //  list of registered enterprise from directory.json
 const gridList = document.querySelector('.grid-list-views');
-const gridViews = document.querySelector('.grid-view');
+const gridViews = document.querySelector('.grid-view button');
 const listView = document.querySelector('.list-view button');
 
 
@@ -75,7 +75,7 @@ fetch("json-directory/directory.json").then(res=> {
 
     // grid view function
     function gridView() {
-        gridList.style.display = "grid";
+        gridList.style.display = "none";
     }
 
     listView.addEventListener("click",blockView);

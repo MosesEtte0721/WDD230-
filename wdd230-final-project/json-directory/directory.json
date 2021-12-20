@@ -6,8 +6,7 @@
             {   "name" : "Fechez plaza",
             "address" : "24 hospital road, Eket, Akwa Ibom",
             "description" :"Sales of home appliences",
-            "email"  : "fechez@gmail.com",
-            "image" : "null"
+            "email"  : "fechez@gmail.com"
             },
             
             {
@@ -52,7 +51,7 @@
                 "name":"Redwood",
                 "adrress":"1 Stadium Avenue, Eket",
                 "description":"Recreation centre",
-                "email":"null",
+                "email":"redwood@gmail.com",
                 "image":"images/redwood133kb.jpg"
             }
         

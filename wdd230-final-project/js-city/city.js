@@ -22,12 +22,12 @@ ref.innerHTML = `Last Updated: ${date} ${month},  ${year}`;
 
 // swapping data-src attribute with src  attribute
 let images = document.querySelectorAll('img[data-src]');
-function observa() {
-    images.setAttribute('src', image.getAttribute('data-src'));
+function observa(para) {
+    para.setAttribute('src', para.getAttribute('data-src'));
 
     // remove data-src attribute when the page is loaded
-    images.onload = () => {
-    images.removeAttribute('data-src')
+    para.onload = () => {
+    para.removeAttribute('data-src')
     }
 }
 

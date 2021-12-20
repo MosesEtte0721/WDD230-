@@ -161,7 +161,7 @@ main .banner {
 }
 
 
-.join-button button {
+.join-button {
     cursor: pointer;
     width: 200px;
     height: 50px;
@@ -170,18 +170,19 @@ main .banner {
     border: none;
     border-radius: 5px;
     background-color: gold;
+    font-size: 20px;
 
 }
 
-.join-button button a {
+/* .join-button button a {
     text-decoration: none;
-    font-size: 20px;
+    
     padding: 10px;
     color: black;
     font-family: "Arimo","Nunito","Roboto","Hind",sans-serif;
 
    
-}
+} */
 
 main nav .active {
     background-color: #14a8a4;

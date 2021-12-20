@@ -6,7 +6,7 @@ function Toggle() {
 
 
 const bodi = document.querySelector("body");
-const nav = document.querySelector('nav')
+const nav = document.querySelector('nav');
 
 
 
@@ -85,12 +85,12 @@ fetch("json-directory/directory.json").then(res=> {
 
     // swapping data-src attribute with src  attribute
 let images = document.querySelectorAll('img[data-src]');
-function observa() {
-    images.setAttribute('src', images.getAttribute('data-src'));
+function observa(attribute) {
+    attribute.setAttribute('src', attribute.getAttribute('data-src'));
 
     // remove data-src attribute when the page is loaded
-    images.onload = () => {
-    images.removeAttribute('data-src')
+    attribute.onload = () => {
+    attribute.removeAttribute('data-src')
     }
 }
 

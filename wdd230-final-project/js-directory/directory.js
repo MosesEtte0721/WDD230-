@@ -75,7 +75,7 @@ fetch("json-directory/directory.json").then(res=> {
 
     // grid view function
     function gridView() {
-        gridList.style.display = "none";
+        gridList.style.display = "grid";
     }
 
     listView.addEventListener("click",blockView);
@@ -100,7 +100,7 @@ if ("IntersectionObserver" in window) {
         item.forEach(items=> {
             if (items.isIntersecting){
                 observa(items.target);
-                observer.unobserve(items.target)
+                observer.unobserve(items.target);
             }
         })
     })
@@ -110,6 +110,6 @@ if ("IntersectionObserver" in window) {
 }
 else{
     images.forEach(element => {
-        observa(element)
+        observa(element);
     })
 }

@@ -17,7 +17,7 @@ const month = months[timeObj.getMonth(document.lastModified)];
 const date = timeObj.getDate(document.lastModified);
 const year = timeObj.getFullYear(document.lastModified);
 
-ref.innerHTML = `Last Updated: ${date} ${month},  ${year}`;
+ref.textContent = `Last Updated: ${date} ${month},  ${year}`;
 
 // get current weather condition 
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=eket&units=metric&appid=15a232b38f2ced0e9d67e834df68e80c';

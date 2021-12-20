@@ -156,27 +156,24 @@ main nav ul li:hover a {
     margin-top: 4px;
 }
 
-.join-button button {
+.join-button a{
     cursor: pointer;
     width: 200px;
     height: 50px;
     padding: 10px;
-    margin: 5px;
+    text-decoration: none;
     border: none;
     border-radius: 5px;
     background-color: gold;
+    font-size: 20px;
 
 }
 
-.join-button button a {
-    text-decoration: none;
-    font-size: 18px;
-    padding: 10px;
-    color: black;
-    font-family: "Arimo","Nunito","Roboto","Hind",sans-serif;
-
-   
+.join-button {
+    margin-top: 15px;
+    margin-left:5px
 }
+
 
 .active {
     background-color: #14a8a4;

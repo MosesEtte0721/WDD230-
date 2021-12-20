@@ -86,7 +86,7 @@ fetch("json-directory/directory.json").then(res=> {
     // swapping data-src attribute with src  attribute
 let images = document.querySelectorAll('img[data-src]');
 function observa() {
-    images.setAttribute('src', image.getAttribute('data-src'));
+    images.setAttribute('src', images.getAttribute('data-src'));
 
     // remove data-src attribute when the page is loaded
     images.onload = () => {

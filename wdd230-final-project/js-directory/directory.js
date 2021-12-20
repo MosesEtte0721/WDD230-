@@ -23,7 +23,7 @@ const year = timeObj.getFullYear(document.lastModified);
 ref.innerHTML = `Last Updated: ${date} ${month},  ${year}`;
 
 //  list of registered enterprise from directory.json
-const gridList = document.querySelector('.grid-list-views');
+// const gridList = document.querySelector('.grid-list-views');
 const gridViews = document.querySelector('.grid-view button');
 const listView = document.querySelector('.list-view button');
 

@@ -161,7 +161,24 @@ main .banner {
 }
 
 
-c
+.join-button a{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: gold;
+    font-size: 20px;
+
+}
+
+.join-button {
+    margin-top: 15px;
+    margin-left:5px
+}
+
 
 main nav .active {
     background-color: #14a8a4;

@@ -12,6 +12,8 @@ const weekDays = ["Mon","Tue","Wed","Thur","Fri","Sat","Sun"];
 const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const ref = document.querySelector('#esc');
 
+
+
 const timeObj = new Date();
 const month = months[timeObj.getMonth(document.lastModified)];
 const date = timeObj.getDate(document.lastModified);
@@ -65,8 +67,8 @@ fetch(apiUrl2c).then(res => {
     
     day.textContent = `${weekDay}`;
     image.setAttribute('src', `${icon1}`);
-    image.setAttribute('alt', `${ask.list[15].weather[0].description}`);
-    temp.textContent = `${ask.list[15].main.temp}`;
+    image.setAttribute('alt', `${ask.list[5].weather[0].description}`);
+    temp.textContent = `${ask.list[5].main.temp}`;
 // 
     refElement1.appendChild(day);
     refElement1.appendChild(image);
@@ -83,8 +85,8 @@ fetch(apiUrl2c).then(res => {
 
     day2.textContent =`${weekDay2}`;
     image2.setAttribute('src', `${icon2}`);
-    image2.setAttribute('alt',`${ask.list[23].weather[0].description}`);
-    temp2.textContent = `${ask.list[23].main.temp}`;
+    image2.setAttribute('alt',`${ask.list[13].weather[0].description}`);
+    temp2.textContent = `${ask.list[13].main.temp}`;
 
 
     refElement2.appendChild(day2);
@@ -102,8 +104,8 @@ fetch(apiUrl2c).then(res => {
 
     day3.textContent =`${weekDay3}`;
     image3.setAttribute('src', `${icon3}`);
-    image3.setAttribute('alt',`${ask.list[23].weather[0].description}`);
-    temp3.textContent = `${ask.list[23].main.temp}`;
+    image3.setAttribute('alt',`${ask.list[21].weather[0].description}`);
+    temp3.textContent = `${ask.list[21].main.temp}`;
 
 
     refElement3.appendChild(day3);

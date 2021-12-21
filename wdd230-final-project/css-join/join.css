@@ -45,11 +45,13 @@ input[required]:valid {
 }
 
 legend {
-    font-size: 20px;
+    font-size: 15px;
     background-color: #463252;
     color: white;
     text-align: center;
     font-family: "Arimo","Nunito","Roboto","Hind",sans-serif;
+    padding:10px;
+    border-radius: 5px;
 
 }
 

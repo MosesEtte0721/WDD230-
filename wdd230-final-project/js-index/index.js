@@ -35,7 +35,7 @@ fetch(apiUrl).then(ans => {
 
     console.log(` current temperature is: ${ask.main.temp}`);
 
-    currentTemp.textContent = `Current temperature: ${ask.main.temp}`;
+    currentTemp.textContent = `Current temperature: ${ask.main.temp} °c`;
     conditionDesc.textContent = `Description: ${ask.weather[0].description}`;
     humitdity.textContent = ` Humidity: ${ask.main.humidity}`;
 
@@ -59,22 +59,24 @@ fetch(apiUrl2c).then(res => {
     const icon1 = `http://openweathermap.org/img/wn/${ask.list[17].weather[0].icon}.png`;
 
 // day one 
+   
     const weekDay = weekDays[timeObj.getDay()];
     const day = document.createElement('p');
     const image = document.createElement('img');
     const temp = document.createElement('p');
 
     
-    day.textContent = `${weekDay}`;
+    day.innerHTML = `<b>${weekDay}</b>`;
     image.setAttribute('src', `${icon1}`);
     image.setAttribute('alt', `${ask.list[5].weather[0].description}`);
-    temp.textContent = `${ask.list[5].main.temp}`;
+    temp.textContent = `${ask.list[5].main.temp}°c`;
 // 
     refElement1.appendChild(day);
     refElement1.appendChild(image);
     refElement1.appendChild(temp);
 
 // day2 forecast 
+   
 
     const icon2 = `http://openweathermap.org/img/wn/${ask.list[23].weather[0].icon}.png`;
    const  refElement2 = document.querySelector('.forecast-wrapper2')
@@ -83,10 +85,10 @@ fetch(apiUrl2c).then(res => {
     const image2 = document.createElement('img');
     const temp2 = document.createElement('p');
 
-    day2.textContent =`${weekDay2}`;
+    day2.innerHTML = `<b> Thur </b>`;
     image2.setAttribute('src', `${icon2}`);
     image2.setAttribute('alt',`${ask.list[13].weather[0].description}`);
-    temp2.textContent = `${ask.list[13].main.temp}`;
+    temp2.textContent = `${ask.list[13].main.temp}°c`;
 
 
     refElement2.appendChild(day2);
@@ -95,6 +97,7 @@ fetch(apiUrl2c).then(res => {
 
 
     // day3
+    
     const icon3 = `http://openweathermap.org/img/wn/${ask.list[23].weather[0].icon}.png`;
    const  refElement3 = document.querySelector('.forecast-wrapper3')
     const weekDay3 = weekDays[timeObj.getDay()];
@@ -102,10 +105,10 @@ fetch(apiUrl2c).then(res => {
     const image3 = document.createElement('img');
     const temp3 = document.createElement('p');
 
-    day3.textContent =`${weekDay3}`;
+    day3.innerHTML =`<b>Fri </b>`;
     image3.setAttribute('src', `${icon3}`);
     image3.setAttribute('alt',`${ask.list[21].weather[0].description}`);
-    temp3.textContent = `${ask.list[21].main.temp}`;
+    temp3.textContent = `${ask.list[21].main.temp} °c`;
 
 
     refElement3.appendChild(day3);

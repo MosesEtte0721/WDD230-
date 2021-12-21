@@ -215,8 +215,6 @@ img {
 }
 
 .forecast-big-wrapper {
-    background-color: red;
-
     display: block;
     margin: 5px;
     padding: 10px;
@@ -235,6 +233,12 @@ img {
     margin-left: 10px;
     margin-bottom: 10px;
 
+}
+.forecast-wrapper1,.forecast-wrapper2, .forecast-wrapper3 {
+    margin-left: 15px;
+    text-align: center;
+    background-color: #14a8a4;
+    padding: 20px;
 }
 
 

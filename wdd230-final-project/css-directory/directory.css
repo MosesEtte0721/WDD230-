@@ -25,6 +25,9 @@ section {
     overflow-wrap: break-word;
    
 }
+section img {
+    max-width: 65%;
+}
 
 
 section img {

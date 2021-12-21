@@ -188,11 +188,6 @@ picture {
     width: 60%;
 }
 
-picture img {
-    width: 70%;
-    height:70%;
-    
-}
 
 picture figcaption {
     font-family: "Arimo","Nunito","Roboto","Hind",sans-serif;

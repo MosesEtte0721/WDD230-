@@ -168,7 +168,7 @@ main nav ul li:hover a {
 }
 
 form{
-    max-width: 300px;
+    max-width: 200px;
     margin-bottom: 5px;
 }
 
@@ -177,6 +177,7 @@ legend {
     color:white;
     background-color: #463252;
     font-size: 18px;
+    padding: 10px;
 }
 
 input, label {

@@ -16,3 +16,35 @@ const year = timeObj.getFullYear(document.lastModified);
 
 ref.innerHTML = `Last Updated: ${date} ${month},  ${year}`;
 
+ // swapping data-src attribute with src  attribute
+ let images = document.querySelectorAll('img[data-src]');
+
+ function observa(attribute) {
+     attribute.setAttribute('src', attribute.getAttribute('data-src'));
+ 
+     // remove data-src attribute when the page is loaded
+     attribute.onload = () => {
+     attribute.removeAttribute('data-src')
+     }
+ }
+ 
+ // observe images
+ if ("IntersectionObserver" in window) {
+     let observer = new IntersectionObserver((item, observer)=> {
+         item.forEach(items=> {
+             if (items.isIntersecting){
+                 observa(items.target);
+                 observer.unobserve(items.target);
+             }
+         })
+     })
+     images.forEach((image)=> {
+         observer.observe(image);
+     }) 
+ }
+ else{
+     images.forEach(element => {
+         observa(element);
+     })
+ }
+ 

@@ -113,6 +113,9 @@
     
        #map {
            display: block;
+           display: grid;
+           grid-column: 3;
+           grid-row: 1;
        }
        
         .join-button {

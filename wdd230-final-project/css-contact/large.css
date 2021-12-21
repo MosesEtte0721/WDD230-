@@ -93,14 +93,6 @@
             color: yellow;
         }
         
-        main nav .social-network {
-            display: none;
-            align-items: flex-start;
-            justify-content: flex-start;
-            margin-top: 30px;
-        
-        
-        }
         
         
         main .grid {
@@ -116,26 +108,15 @@
         }
         
         .join-button {
-            display: block;
+            display: none;
         }
     
-        .header-social-network img{ 
-            width: 30px;
-            height: 30px;
-            margin-left: 10px;
-        }
-        
-        .header-social-network {
-            display: flex;
-            align-self: end;
-            justify-self: center;
-            grid-column: 3/3;
-        }
-    
-    
+       #map {
+           display: block;
+       }
        
-        div.join-button {
-            display: block;
+        .join-button {
+            display: none;
         }
     
         

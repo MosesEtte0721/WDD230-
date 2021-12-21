@@ -22,6 +22,7 @@
 
     
     header .social-network img {
+        display: block;
         margin-left: 10px;
     }
 
@@ -49,9 +50,6 @@ main nav ul {
     }
 
     
-    div .join-button {
-        display: block;
-    }
 
     
     form {
@@ -66,38 +64,34 @@ main nav ul {
         font-size: 20px;
     }
     
-    .contact-join-button {
+    .join-button {
         display: block;
     }
     
-    .contact-join-button button {
-        display: block;
-        padding: 15px;
-        background-color: gold;
-        border: none;
+    .join-button a {
+
         border-radius: 5px;
-
-    }
-
-    .contact-join-button button a{
+        cursor: pointer;
         text-decoration: none;
-        font-size: 20px;
+        padding: 15px;
         color: black;
-        padding: 10px;
-        font-family: "Arimo","Nunito","Roboto","Hind",sans-serif;
-
+        font-size: 20px;
     }
 
-    #map {
+    .join-button {
+        display: block;
+        background-color: gold;
+        width: 200px;
+        border: none;
+    }
+    
+    /* #map {
         display: grid;  
         grid-column: 2;
         grid-row: 1;
-    }
+    } */
 
-    .join-button button {
-        display: none;
-    }
-
+    
     .regular-contact-wrapper {
         grid-column: 1;
         grid-row: 1;

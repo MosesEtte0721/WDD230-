@@ -39,6 +39,14 @@ h1 {
     display: none;
 }
 
+.header-social-network img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+
 
 
 header {
@@ -149,8 +157,6 @@ main nav ul li:hover a {
     width: 30px;
     height: 30px;
     margin-left: 10px;
-    
-
 }
 
 .banner img {
@@ -219,15 +225,30 @@ textarea {
 }
 
 
+
 .contact-join-button {
-    display: none;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gold;
+    text-align: center;
+    text-decoration: none;
 }
+.contact-join-button a {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
 
 #map {
     margin-top: 20px;
     display: none;
-    margin-right: 0px;
-    overflow:hidden;
+    
     
 }
 
@@ -302,7 +323,7 @@ footer .copy {
     margin: 10px;
 }
 
-
+/* 
 .join-button button {
     cursor: pointer;
     width: 200px;
@@ -313,9 +334,9 @@ footer .copy {
     border-radius: 5px;
     background-color: gold;
 
-}
+} */
 
-.join-button button a {
+/* .join-button button a {
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
@@ -323,7 +344,7 @@ footer .copy {
     font-family: "Arimo","Nunito","Roboto","Hind",sans-serif;
 
    
-}
+} */
 
 main ul .active {
     background-color: #14a8a4;

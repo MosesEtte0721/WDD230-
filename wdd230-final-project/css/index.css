@@ -208,7 +208,7 @@ img {
     margin-top: 50px;
     max-width: 80%;
     padding: 10px;
-    /* background-color: #14a8a4; */
+  
 }
 
 .weather-wrapper {
@@ -239,7 +239,7 @@ img {
 }
 .town-name {
     text-align: center;
-    vertical-align: auto;
+   
 }
 
 

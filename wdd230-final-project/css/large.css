@@ -146,7 +146,6 @@
            
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            /* grid-template-rows: repeat(aut-fit, minmax(100px, 1fr)); */
             grid-column: 2/3;
             grid-row: 2/3;
             column-gap: 15px;

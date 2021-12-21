@@ -122,7 +122,7 @@
         
         main .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             margin: 0 auto;
             justify-items: start;
             align-items: end;
@@ -131,31 +131,36 @@
         }
         .side-col {
             display: block;
-            grid-column: 1/1;
-            grid-row: 1;
+            grid-column: 1/2;
+            grid-row: 1/3;
             margin: 5px;
         }
     
         .purpose-wrapper {
             grid-column: 2/3;
+            grid-row: 1;
             margin: 5px;
         }
     
         .local-companies {
+           
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-column: 1/3;
-            grid-row: 2/2;
+            /* grid-template-rows: repeat(aut-fit, minmax(100px, 1fr)); */
+            grid-column: 2/3;
+            grid-row: 2/3;
             column-gap: 15px;
             margin-left: 10px;
             margin-bottom: 10px;
             box-shadow: 2px 2px 2px 2px;
             padding: 5px;
+            justify-self: start;
+            /* max-height: 900px; */
         }
 
         picture img {
             width: 100%;
-            height:70%;
+            height:60%;
             
         }
 

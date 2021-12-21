@@ -12,6 +12,9 @@ body {
     margin: 0px;
    
 }
+a {
+    font-family: "Arimo","Nunito","Roboto","Hind",sans-serif;
+}
 
 
 h1 {
@@ -69,7 +72,7 @@ header .site-name {
 }
 
 header button {
-    font-size: 22px;
+    font-size: 30px;
     color: white;
     padding: 10px;
     border: none;
@@ -97,7 +100,7 @@ main nav ul {
     width: 100%;
     position: fixed;
     left: 0px;
-    top: 104px;
+    top: 99px;
     text-align: left;
     margin: 0px;
     padding: 10px;
@@ -224,6 +227,23 @@ img {
     display: flex;
 }
 
+#current-temp {
+    box-shadow: 2px 2px 3px 3px;
+    width: 60%;
+    margin-top: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+    font-weight: 400;
+    
+}
+.town-name {
+    text-align: center;
+    vertical-align: auto;
+}
+
+
+
 .upcoming-events {
     margin: 5px;
     padding: 10px;
@@ -235,7 +255,7 @@ img {
 
 }
 .forecast-wrapper1,.forecast-wrapper2, .forecast-wrapper3 {
-    margin-left: 15px;
+    margin-left: 10px;
     text-align: center;
     background-color: #14a8a4;
     padding: 20px;

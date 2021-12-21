@@ -26,14 +26,14 @@ const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=eket&units=met
 fetch(apiUrl).then(ans => {
     return ans.json()
 }).then(ask => {
-    console.log(ask);
+   
 
     const refElement = document.querySelector('#current-temp');
     const currentTemp = document.createElement('p');
     const conditionDesc = document.createElement('p');
     const humitdity = document.createElement('p');
 
-    console.log(` current temperature is: ${ask.main.temp}`);
+   
 
     currentTemp.textContent = `Current temperature: ${ask.main.temp} °c`;
     conditionDesc.textContent = `Description: ${ask.weather[0].description}`;
@@ -54,7 +54,7 @@ const apiUrl2c = 'https://api.openweathermap.org/data/2.5/forecast?q=eket&units=
 fetch(apiUrl2c).then(res => {
     return res.json()
 }).then(ask => {
-    console.log(ask);
+   
     const refElement1 = document.querySelector('.forecast-wrapper1');
     const icon1 = `http://openweathermap.org/img/wn/${ask.list[17].weather[0].icon}.png`;
 
@@ -119,16 +119,16 @@ fetch(apiUrl2c).then(res => {
 })
 
 // swapping data-src attribute with src  attribute
-let images = document.querySelectorAll('img[data-src]');
+let images = document.querySelectorAll('picture[source]');
 
 function observa(attribute) {
     attribute.setAttribute('src', attribute.getAttribute('data-src'));
 
-    // remove data-src attribute when the page is loaded
+   // remove data-src attribute when the page is loaded
     attribute.onload = () => {
     attribute.removeAttribute('data-src')
     }
-}
+};
 
 // observe images
 if ("IntersectionObserver" in window) {

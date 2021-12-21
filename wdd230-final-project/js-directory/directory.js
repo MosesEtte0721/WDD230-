@@ -31,7 +31,7 @@ const listView = document.querySelector('.list-view button');
 fetch("json-directory/directory.json").then(res=> {
     return res.json();
 }).then(ask=> {
-    console.log(ask);
+   
     let list = ask["companies"];
 
    list.forEach(list => {

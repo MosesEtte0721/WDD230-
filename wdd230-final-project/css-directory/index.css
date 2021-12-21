@@ -29,6 +29,9 @@ body {
    
 }
 
+a {
+    font-family: "Arimo","Nunito","Roboto","Hind",sans-serif;
+}
 
 h1 {
     font-size: 20px;
@@ -101,7 +104,7 @@ main nav ul {
     width: 100%;
     position: fixed;
     left: 0px;
-    top: 104px;
+    top: 99px;
     text-align: left;
     margin: 0px;
     padding: 10px;
